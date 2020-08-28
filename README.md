@@ -4,6 +4,27 @@
 
 幫老弟寫 API 好練習串 API 接口，順便嘗試 RESTfulAPI 的 Lv 1 - 3，與 Swagger 套件。
 
+## 網路基礎
+
+<https://medium.com/@miahsuwork/%E7%AC%AC%E5%85%AD%E9%80%B1-%E7%B6%B2%E8%B7%AF%E5%9F%BA%E7%A4%8E-http-request-response-7d7e0cb88ed8>
+
+<https://yakimhsu.com/project/project_w4_Network_http.html>
+
+## 前端工具( 物件, 模組 )
+
+* 此次會要求老弟嘗試三種方法
+  * XMLHttpRequest 原生 API
+  * jQuery.ajax() 第三方庫
+  * fetch 原生 API
+
+<https://developer.mozilla.org/zh-TW/docs/Web/API/Fetch_API/Using_Fetch>
+
+<https://wcc723.github.io/javascript/2017/12/28/javascript-fetch/>
+
+<https://developer.mozilla.org/zh-TW/docs/Web/API>
+
+<https://www.itread01.com/content/1564589404.html>
+
 ## [RESTfulAPI 簡介 by https://openhome.cc](https://openhome.cc/Gossip/Spring/HATEOAS.html)
 
 * Level 0 -  使用 HTTP 做為資料傳輸的媒介。
