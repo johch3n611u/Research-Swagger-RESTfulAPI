@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
@@ -10,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.PlatformAbstractions;
 
 namespace DPERFUME_API
 {
@@ -29,6 +31,9 @@ namespace DPERFUME_API
 
             services.AddSwaggerGen(c =>
             {
+                var filePath = Path.Combine(PlatformServices.Default.Application.ApplicationBasePath, "Api.xml");
+                c.IncludeXmlComments(filePath);
+
                 c.SwaggerDoc(
                     // name: §ñÃö SwaggerDocument ªº URL ¦ì¸m¡C
                     name: "v1",

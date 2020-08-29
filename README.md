@@ -45,7 +45,8 @@
 
 1. 跟著步驟做 DTO 與 API
 2. 網址為 <https://localhost:44317/swagger/index.html>
-3. [研究動態泛型 反應程式設計](https://dotblogs.com.tw/AceLee/2019/11/05/125029)
+3. [研究動態泛型 反應式程式設計](https://mileslin.github.io/2016/12/%E5%8B%95%E6%85%8B%E6%8C%87%E5%AE%9A%E6%B3%9B%E5%9E%8B%E5%9E%8B%E5%88%A5/)
+4. 最後動態泛型的反傳值沒研究成功，有時間再研究...
 
 ## 參考
 
@@ -58,3 +59,7 @@
 <https://xd.adobe.com/view/dc5ebe5c-3e56-4981-a010-158b5ded0e72-890d/grid>
 
 <https://dotblogs.com.tw/AceLee/2019/11/05/125029>
+
+<https://li-jin-xing-vulcan.gitbook.io/csharp/genericdynobject>
+
+<https://mileslin.github.io/2016/12/%E5%8B%95%E6%85%8B%E6%8C%87%E5%AE%9A%E6%B3%9B%E5%9E%8B%E5%9E%8B%E5%88%A5/>

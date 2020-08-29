@@ -86,8 +86,6 @@ D:\Desk\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\bin\Debug\
 D:\Desk\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Desk\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Desk\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Desk\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\obj\Debug\netcoreapp3.1\DPERFUME-API.csproj.CoreCompileInputs.cache
-D:\Desk\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\obj\Debug\netcoreapp3.1\DPERFUME-API.MvcApplicationPartsAssemblyInfo.cache
 D:\Desk\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\obj\Debug\netcoreapp3.1\DPERFUME-API.csproj.CopyComplete
 D:\Desk\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\obj\Debug\netcoreapp3.1\DPERFUME-API.dll
 D:\Desk\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\obj\Debug\netcoreapp3.1\DPERFUME-API.pdb
@@ -191,3 +189,12 @@ C:\Users\rognp\Desktop\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME
 C:\Users\rognp\Desktop\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\obj\Debug\netcoreapp3.1\DPERFUME-API.csproj.CoreCompileInputs.cache
 C:\Users\rognp\Desktop\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\obj\Debug\netcoreapp3.1\DPERFUME-API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\rognp\Desktop\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\obj\Debug\netcoreapp3.1\DPERFUME-API.MvcApplicationPartsAssemblyInfo.cache
+D:\Desk\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Desk\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Desk\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Desk\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Desk\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\bin\Debug\netcoreapp3.1\Api.xml
+D:\Desk\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+D:\Desk\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\obj\Debug\netcoreapp3.1\DPERFUME-API.csproj.CoreCompileInputs.cache
+D:\Desk\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\obj\Debug\netcoreapp3.1\DPERFUME-API.MvcApplicationPartsAssemblyInfo.cs
+D:\Desk\Side-Project-Try-Swagger-RESTfulAPI\DPERFUME-API\DPERFUME-API\obj\Debug\netcoreapp3.1\DPERFUME-API.MvcApplicationPartsAssemblyInfo.cache

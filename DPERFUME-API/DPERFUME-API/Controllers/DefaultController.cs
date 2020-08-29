@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -15,27 +16,13 @@ namespace DPERFUME_API.Controllers
         public HomePage homepage;
 
         /// <summary>
-        /// 查詢所有頁面
+        /// 查詢頁面詳細資料
         /// </summary>
+        /// <param name="PageName">頁面名稱</param>
+        /// <param name="PartName">元件名稱</param>
+        /// <param name="id">識別值</param>
         /// <returns>頁面資料</returns>
         [HttpGet]
-        public List<ResultModel> Get()
-        {
-            List<ResultModel> Responses = new List<ResultModel>();
-            ResultModel Response = new ResultModel();
-            Response.IsSuccess = true;
-            Response.Message = "Welcome to used DPERFUME_API,This is our Homepage JSON Data.";
-            Response.Data = homepage;
-            Responses.Add(Response);
-
-            var objType = Response.GetType();
-            MethodInfo generic = method.MakeGenericMethod(objType);
-            var resultPara = generic.Invoke(cls, null);
-
-            return Responses;
-        }
-
-        [HttpGet("{PageName,PartName,id}")]
         public ResultModel Get(string PageName, string PartName, string id)
         {
             ResultModel Response = new ResultModel();
@@ -122,7 +109,7 @@ namespace DPERFUME_API.Controllers
 
                     switch (PartName)
                     {
-                        case "ShopBage":
+                        case "ShopBag":
                             Response.IsSuccess = true;
                             Response.Message = "Welcome to used DPERFUME_API";
                             Response.Data = homepage.Layout.Header.Navbar.ShopBag;
@@ -164,48 +151,87 @@ namespace DPERFUME_API.Controllers
                             break;
                     }
                 }
-
-                switch (PageName)
+                else
                 {
-                    case "HomePage":
-                        Response.IsSuccess = true;
-                        Response.Message = "Welcome to used DPERFUME_API";
-                        Response.Data = homepage;
-                        break;
-                    default:
-                        Response.IsSuccess = false;
-                        Response.Message = "Can't find Data";
-                        Response.Data = new object();
-                        break;
+
+                    switch (PageName)
+                    {
+                        case "HomePage":
+                            Response.IsSuccess = true;
+                            Response.Message = "Welcome to used DPERFUME_API";
+                            Response.Data = homepage;
+                            break;
+                        default:
+                            Response.IsSuccess = false;
+                            Response.Message = "Can't find Data";
+                            Response.Data = new object();
+                            break;
+                    }
                 }
+            }
+            else 
+            {
+                Response.IsSuccess = false;
+                Response.Message = "Can't find Data";
+                Response.Data = new object();
             }
 
             return Response;
         }
 
+        /// <summary>
+        /// 帳號密碼登入 測試帳號密碼為 Carl@gmail.com/1234
+        /// </summary>
+        /// <param name="Authentication">帳號密碼</param>
+        /// <returns>登入成功或失敗</returns>
         [HttpPost]
         public ResultModel Post([FromBody] Authentication Authentication)
         {
             ResultModel Response = new ResultModel();
-            // ...
+
+            if (Authentication != null) {
+
+                if (
+                    Authentication.Email == "Carl@gmail.com" 
+                    &&
+                    Authentication.Password == "1234"
+                    )
+                {
+                    Response.IsSuccess = true;
+                    Response.Message = "Congratulations on successful Verification";
+                    Response.Data = new object();
+                }
+                else 
+                {
+                    Response.IsSuccess = false;
+                    Response.Message = "Please make sure enter the right Authentication";
+                    Response.Data = new object();
+                }
+            }
+            else 
+            {
+                Response.IsSuccess = false;
+                Response.Message = "Please make sure enter the right Authentication";
+                Response.Data = new object();
+            }
             return Response;
         }
 
-        [HttpPut("{id}")]
-        public ResultModel Put(string Email, [FromBody] Authentication Authentication)
-        {
-            ResultModel Response = new ResultModel();
-            // ...
-            return Response;
-        }
+        //[HttpPut("{id}")]
+        //public ResultModel Put(string Email, [FromBody] Authentication Authentication)
+        //{
+        //    ResultModel Response = new ResultModel();
+        //    // ...
+        //    return Response;
+        //}
 
-        [HttpDelete("{id}")]
-        public ResultModel Delete(int id)
-        {
-            ResultModel Response = new ResultModel();
-            // ...
-            return Response;
-        }
+        //[HttpDelete("{id}")]
+        //public ResultModel Delete(int id)
+        //{
+        //    ResultModel Response = new ResultModel();
+        //    // ...
+        //    return Response;
+        //}
 
 
         public DefaultController()
@@ -334,8 +360,8 @@ namespace DPERFUME_API.Controllers
 
         public class Authentication
         {
-            public bool Email { get; set; }
-            public bool Password { get; set; }
+            public string Email { get; set; }
+            public string Password { get; set; }
         }
 
         public class ResultModel
@@ -343,6 +369,7 @@ namespace DPERFUME_API.Controllers
             public bool IsSuccess { get; set; }
             public string Message { get; set; }
             public object Data { get; set; }
+
         }
 
         public class Layout

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DPERFUME-API</name>
+    </assembly>
+    <members>
+        <member name="M:DPERFUME_API.Controllers.DefaultController.Get(System.String,System.String,System.String)">
+            <summary>
+            查詢頁面詳細資料
+            </summary>
+            <param name="PageName">頁面名稱</param>
+            <param name="PartName">元件名稱</param>
+            <param name="id">識別值</param>
+            <returns>頁面資料</returns>
+        </member>
+        <member name="M:DPERFUME_API.Controllers.DefaultController.Post(DPERFUME_API.Controllers.DefaultController.Authentication)">
+            <summary>
+            帳號密碼登入 測試帳號密碼為 Carl@gmail.com/1234
+            </summary>
+            <param name="Authentication">帳號密碼</param>
+            <returns>登入成功或失敗</returns>
+        </member>
+    </members>
+</doc>
