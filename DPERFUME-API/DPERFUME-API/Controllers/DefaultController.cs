@@ -106,49 +106,52 @@ namespace DPERFUME_API.Controllers
                         }
 
                     }
-
-                    switch (PartName)
+                    else
                     {
-                        case "ShopBag":
-                            Response.IsSuccess = true;
-                            Response.Message = "Welcome to used DPERFUME_API";
-                            Response.Data = homepage.Layout.Header.Navbar.ShopBag;
-                            break;
-                        case "Layout":
-                            Response.IsSuccess = true;
-                            Response.Message = "Welcome to used DPERFUME_API";
-                            Response.Data = homepage.Layout;
-                            break;
-                        case "Banner":
-                            Response.IsSuccess = true;
-                            Response.Message = "Welcome to used DPERFUME_API";
-                            Response.Data = homepage.Banner;
-                            break;
-                        case "ColumnProducts":
-                            Response.IsSuccess = true;
-                            Response.Message = "Welcome to used DPERFUME_API";
-                            Response.Data = homepage.ColumnProducts;
-                            break;
-                        case "Steps":
-                            Response.IsSuccess = true;
-                            Response.Message = "Welcome to used DPERFUME_API";
-                            Response.Data = homepage.Steps;
-                            break;
-                        case "RowProducts":
-                            Response.IsSuccess = true;
-                            Response.Message = "Welcome to used DPERFUME_API";
-                            Response.Data = homepage.RowProducts;
-                            break;
-                        case "FinalProduct":
-                            Response.IsSuccess = true;
-                            Response.Message = "Welcome to used DPERFUME_API";
-                            Response.Data = homepage.FinalProduct;
-                            break;
-                        default:
-                            Response.IsSuccess = false;
-                            Response.Message = "Can't find Data";
-                            Response.Data = new object();
-                            break;
+
+                        switch (PartName)
+                        {
+                            case "ShopBag":
+                                Response.IsSuccess = true;
+                                Response.Message = "Welcome to used DPERFUME_API";
+                                Response.Data = homepage.Layout.Header.Navbar.ShopBag;
+                                break;
+                            case "Layout":
+                                Response.IsSuccess = true;
+                                Response.Message = "Welcome to used DPERFUME_API";
+                                Response.Data = homepage.Layout;
+                                break;
+                            case "Banner":
+                                Response.IsSuccess = true;
+                                Response.Message = "Welcome to used DPERFUME_API";
+                                Response.Data = homepage.Banner;
+                                break;
+                            case "ColumnProducts":
+                                Response.IsSuccess = true;
+                                Response.Message = "Welcome to used DPERFUME_API";
+                                Response.Data = homepage.ColumnProducts;
+                                break;
+                            case "Steps":
+                                Response.IsSuccess = true;
+                                Response.Message = "Welcome to used DPERFUME_API";
+                                Response.Data = homepage.Steps;
+                                break;
+                            case "RowProducts":
+                                Response.IsSuccess = true;
+                                Response.Message = "Welcome to used DPERFUME_API";
+                                Response.Data = homepage.RowProducts;
+                                break;
+                            case "FinalProduct":
+                                Response.IsSuccess = true;
+                                Response.Message = "Welcome to used DPERFUME_API";
+                                Response.Data = homepage.FinalProduct;
+                                break;
+                            default:
+                                Response.IsSuccess = false;
+                                Response.Message = "Can't find Data";
+                                Response.Data = new object();
+                                break;
+                        }
                     }
                 }
                 else
@@ -169,7 +172,7 @@ namespace DPERFUME_API.Controllers
                     }
                 }
             }
-            else 
+            else
             {
                 Response.IsSuccess = false;
                 Response.Message = "Can't find Data";
@@ -189,10 +192,11 @@ namespace DPERFUME_API.Controllers
         {
             ResultModel Response = new ResultModel();
 
-            if (Authentication != null) {
+            if (Authentication != null)
+            {
 
                 if (
-                    Authentication.Email == "Carl@gmail.com" 
+                    Authentication.Email == "Carl@gmail.com"
                     &&
                     Authentication.Password == "1234"
                     )
@@ -201,14 +205,14 @@ namespace DPERFUME_API.Controllers
                     Response.Message = "Congratulations on successful Verification";
                     Response.Data = new object();
                 }
-                else 
+                else
                 {
                     Response.IsSuccess = false;
                     Response.Message = "Please make sure enter the right Authentication";
                     Response.Data = new object();
                 }
             }
-            else 
+            else
             {
                 Response.IsSuccess = false;
                 Response.Message = "Please make sure enter the right Authentication";
@@ -217,12 +221,18 @@ namespace DPERFUME_API.Controllers
             return Response;
         }
 
+        [HttpGet("{All}")]
+        public HomePage Put(string All)
+        {
+            // ...
+            return homepage;
+        }
+
         //[HttpPut("{id}")]
-        //public ResultModel Put(string Email, [FromBody] Authentication Authentication)
+        //public HomePage Put(string Email, [FromBody] Authentication Authentication)
         //{
-        //    ResultModel Response = new ResultModel();
         //    // ...
-        //    return Response;
+        //    return homepage;
         //}
 
         //[HttpDelete("{id}")]
@@ -358,20 +368,44 @@ namespace DPERFUME_API.Controllers
 
         #region DTO
 
+        /// <summary>
+        /// 驗證用途
+        /// </summary>
         public class Authentication
         {
+            /// <summary>
+            /// 帳號 Email Key
+            /// </summary>
             public string Email { get; set; }
+            /// <summary>
+            /// 密碼
+            /// </summary>
             public string Password { get; set; }
         }
 
+        /// <summary>
+        /// 回傳用途
+        /// </summary>
         public class ResultModel
         {
+            /// <summary>
+            /// 確認此次 Request 是否成功
+            /// </summary>
             public bool IsSuccess { get; set; }
+            /// <summary>
+            /// Request 相關訊息
+            /// </summary>
             public string Message { get; set; }
+            /// <summary>
+            /// Request 相關資料
+            /// </summary>
             public object Data { get; set; }
 
         }
 
+        /// <summary>
+        /// 共用元件
+        /// </summary>
         public class Layout
         {
             public Header Header { get; set; }
@@ -379,72 +413,169 @@ namespace DPERFUME_API.Controllers
             public Footer Footer { get; set; }
 
         }
+
+        /// <summary>
+        /// 標頭元件
+        /// </summary>
         public class Header
         {
+            /// <summary>
+            /// 標頭標題
+            /// </summary>
             public string Title { get; set; }
             public Navbar Navbar { get; set; }
         }
+        /// <summary>
+        /// 導航欄元件
+        /// </summary>
         public class Navbar
         {
+            /// <summary>
+            /// 導航名稱
+            /// </summary>
             public List<string> NavNames { get; set; }
 
             public List<ShopBag> ShopBag { get; set; }
         }
-
+        /// <summary>
+        /// 購物車元件
+        /// </summary>
         public class ShopBag
         {
+            /// <summary>
+            /// 帳號 Email Key
+            /// </summary>
             public string Email { get; set; }
+            /// <summary>
+            /// 商品名稱
+            /// </summary>
             public string ProductNames { get; set; }
         }
-
+        /// <summary>
+        /// 頁腳元件
+        /// </summary>
         public class Footer
         {
+            /// <summary>
+            /// 版權聲明
+            /// </summary>
             public string Copyright { get; set; }
+            /// <summary>
+            /// 頁腳標題
+            /// </summary>
             public string Title { get; set; }
             public Navbar Navbar { get; set; }
         }
-
+        /// <summary>
+        /// 橫幅旗幟元件
+        /// </summary>
         public class Banner
         {
+            /// <summary>
+            /// 橫幅旗幟標題
+            /// </summary>
             public string Title { get; set; }
+            /// <summary>
+            /// 橫幅旗幟資訊
+            /// </summary>
             public string Info { get; set; }
         }
-
+        /// <summary>
+        /// 列排商品元件
+        /// </summary>
         public class ColumnProduct
         {
+            /// <summary>
+            /// 商品 Id Key
+            /// </summary>
             public int Id { get; set; }
+            /// <summary>
+            /// 商品標題
+            /// </summary>
             public string Title { get; set; }
+            /// <summary>
+            /// 商品資訊
+            /// </summary>
             public string Info { get; set; }
+            /// <summary>
+            /// 商品連結
+            /// </summary>
             public string Link { get; set; }
         }
-
+        /// <summary>
+        /// 步驟元件
+        /// </summary>
         public class Step
         {
+            /// <summary>
+            /// 步驟 Id Key
+            /// </summary>
             public int Id { get; set; }
+            /// <summary>
+            /// 步驟標題
+            /// </summary>
             public string Title { get; set; }
+            /// <summary>
+            /// 步驟資訊
+            /// </summary>
             public string Info { get; set; }
 
         }
-
+        /// <summary>
+        /// 行排商品元件
+        /// </summary>
         public class RowProduct
         {
+            /// <summary>
+            /// 行排商品 Id Key
+            /// </summary>
             public int Id { get; set; }
+            /// <summary>
+            /// 行排商品標題
+            /// </summary>
             public string Title { get; set; }
+            /// <summary>
+            /// 行排商品資訊
+            /// </summary>
             public string Info { get; set; }
+            /// <summary>
+            /// 行排商品價格
+            /// </summary>
             public string Price { get; set; }
+            /// <summary>
+            /// 行排商品優惠價格
+            /// </summary>
             public string Discount { get; set; }
 
         }
 
+        /// <summary>
+        /// 頁腳商品元件
+        /// </summary>
         public class FinalProduct
         {
+            /// <summary>
+            /// 頁腳商品標題
+            /// </summary>
             public string Title { get; set; }
+            /// <summary>
+            /// 頁腳商品副標題
+            /// </summary>
             public string SubTitle { get; set; }
+            /// <summary>
+            /// 頁腳商品資訊
+            /// </summary>
             public string Info { get; set; }
+            /// <summary>
+            /// 頁腳商品連結
+            /// </summary>
             public string Link { get; set; }
 
         }
 
+        /// <summary>
+        /// HomePage 元件名稱
+        /// </summary>
         public class HomePage
         {
             public Layout Layout { get; set; }

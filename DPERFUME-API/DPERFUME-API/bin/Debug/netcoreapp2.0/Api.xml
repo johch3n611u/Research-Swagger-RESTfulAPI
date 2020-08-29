@@ -20,5 +20,215 @@
             <param name="Authentication">帳號密碼</param>
             <returns>登入成功或失敗</returns>
         </member>
+        <member name="T:DPERFUME_API.Controllers.DefaultController.Authentication">
+            <summary>
+            驗證用途
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.Authentication.Email">
+            <summary>
+            帳號 Email Key
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.Authentication.Password">
+            <summary>
+            密碼
+            </summary>
+        </member>
+        <member name="T:DPERFUME_API.Controllers.DefaultController.ResultModel">
+            <summary>
+            回傳用途
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.ResultModel.IsSuccess">
+            <summary>
+            確認此次 Request 是否成功
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.ResultModel.Message">
+            <summary>
+            Request 相關訊息
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.ResultModel.Data">
+            <summary>
+            Request 相關資料
+            </summary>
+        </member>
+        <member name="T:DPERFUME_API.Controllers.DefaultController.Layout">
+            <summary>
+            共用元件
+            </summary>
+        </member>
+        <member name="T:DPERFUME_API.Controllers.DefaultController.Header">
+            <summary>
+            標頭元件
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.Header.Title">
+            <summary>
+            標頭標題
+            </summary>
+        </member>
+        <member name="T:DPERFUME_API.Controllers.DefaultController.Navbar">
+            <summary>
+            導航欄元件
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.Navbar.NavNames">
+            <summary>
+            導航名稱
+            </summary>
+        </member>
+        <member name="T:DPERFUME_API.Controllers.DefaultController.ShopBag">
+            <summary>
+            購物車元件
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.ShopBag.Email">
+            <summary>
+            帳號 Email Key
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.ShopBag.ProductNames">
+            <summary>
+            商品名稱
+            </summary>
+        </member>
+        <member name="T:DPERFUME_API.Controllers.DefaultController.Footer">
+            <summary>
+            頁腳元件
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.Footer.Copyright">
+            <summary>
+            版權聲明
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.Footer.Title">
+            <summary>
+            頁腳標題
+            </summary>
+        </member>
+        <member name="T:DPERFUME_API.Controllers.DefaultController.Banner">
+            <summary>
+            橫幅旗幟元件
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.Banner.Title">
+            <summary>
+            橫幅旗幟標題
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.Banner.Info">
+            <summary>
+            橫幅旗幟資訊
+            </summary>
+        </member>
+        <member name="T:DPERFUME_API.Controllers.DefaultController.ColumnProduct">
+            <summary>
+            列排商品元件
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.ColumnProduct.Id">
+            <summary>
+            商品 Id Key
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.ColumnProduct.Title">
+            <summary>
+            商品標題
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.ColumnProduct.Info">
+            <summary>
+            商品資訊
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.ColumnProduct.Link">
+            <summary>
+            商品連結
+            </summary>
+        </member>
+        <member name="T:DPERFUME_API.Controllers.DefaultController.Step">
+            <summary>
+            步驟元件
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.Step.Id">
+            <summary>
+            步驟 Id Key
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.Step.Title">
+            <summary>
+            步驟標題
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.Step.Info">
+            <summary>
+            步驟資訊
+            </summary>
+        </member>
+        <member name="T:DPERFUME_API.Controllers.DefaultController.RowProduct">
+            <summary>
+            行排商品元件
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.RowProduct.Id">
+            <summary>
+            行排商品 Id Key
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.RowProduct.Title">
+            <summary>
+            行排商品標題
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.RowProduct.Info">
+            <summary>
+            行排商品資訊
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.RowProduct.Price">
+            <summary>
+            行排商品價格
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.RowProduct.Discount">
+            <summary>
+            行排商品優惠價格
+            </summary>
+        </member>
+        <member name="T:DPERFUME_API.Controllers.DefaultController.FinalProduct">
+            <summary>
+            頁腳商品元件
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.FinalProduct.Title">
+            <summary>
+            頁腳商品標題
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.FinalProduct.SubTitle">
+            <summary>
+            頁腳商品副標題
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.FinalProduct.Info">
+            <summary>
+            頁腳商品資訊
+            </summary>
+        </member>
+        <member name="P:DPERFUME_API.Controllers.DefaultController.FinalProduct.Link">
+            <summary>
+            頁腳商品連結
+            </summary>
+        </member>
+        <member name="T:DPERFUME_API.Controllers.DefaultController.HomePage">
+            <summary>
+            HomePage 元件名稱
+            </summary>
+        </member>
     </members>
 </doc>

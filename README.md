@@ -1,5 +1,7 @@
 # Side-Project-Try-Swagger-RESTfulAPI
 
+![alt](/TryIt.gif)
+
 ## 目的
 
 幫老弟寫 API ，好練習串 API 接口與 ajax SSR，順便嘗試 RESTfulAPI 的 Lv 1 - 3，與 Swagger 套件。
