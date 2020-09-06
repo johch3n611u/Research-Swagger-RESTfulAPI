@@ -6,11 +6,43 @@
 
 幫老弟寫 API ，好練習串 API 接口與 ajax SSR，順便嘗試 RESTfulAPI 的 Lv 1 - 3，與 Swagger 套件。
 
-## 網路基礎
+## 題目
 
-<https://medium.com/@miahsuwork/%E7%AC%AC%E5%85%AD%E9%80%B1-%E7%B6%B2%E8%B7%AF%E5%9F%BA%E7%A4%8E-http-request-response-7d7e0cb88ed8>
-
-<https://yakimhsu.com/project/project_w4_Network_http.html>
+1. 解釋下列名詞。
+   * 可參考
+     * W3C-JS
+     * 六角 JS 課程 ( 比較攏長 )
+     * [網路基礎](https://medium.com/@miahsuwork/%E7%AC%AC%E5%85%AD%E9%80%B1-%E7%B6%B2%E8%B7%AF%E5%9F%BA%E7%A4%8E-http-request-response-7d7e0cb88ed8)
+     * [網路基礎2](https://yakimhsu.com/project/project_w4_Network_http.html)
+     * [網頁渲染方式](https://www.jianshu.com/p/f8b4f3776d9f)
+     * [網頁渲染方式2](https://www.google.com/search?q=BSR%E3%80%81SSG%E3%80%81SSR&oq=BSR%E3%80%81SSG%E3%80%81SSR&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8)
+     * [網路協議](https://twgame.wordpress.com/2015/02/03/tcpiphttpsocketudp/)
+     * [Get/Post差別](https://www.google.com/search?sxsrf=ALeKk03llIX8j1ENlzd1w_55yKW6CQm-dA%3A1599410797452&ei=bRJVX9SbG863mAX6oaTwBA&q=get+post&oq=get+PO&gs_lcp=CgZwc3ktYWIQAxgAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoFCAAQsQM6BAgAEEM6CAgAELEDEIMBUJF7WLGGAWC4jwFoAHAAeACAAUCIAfkBkgEBNZgBAKABAqABAaoBB2d3cy13aXrAAQE&sclient=psy-ab)
+   * 名詞
+     * 靜態網站生成器 Static Site Generators
+     * 客戶端渲染 Client Side Render
+     * 伺服器端渲染 Server Side Render
+     * 域名系統 DNS
+     * 網路位址 IP
+     * 域名 DomainName
+     * 通訊埠 Port
+     * 網路七層 OSI模型
+     * 網路協議 TCP/IP
+     * 網路協議 Http
+     * 網路協議 Https
+     * 網路協議 Socket
+     * 網路協議 HLS/RTMP
+     * 請求 Request
+     * 回應 Response
+     * 封包 Data packet
+     * 資料傳遞方式 get
+     * 資料傳遞方式 post
+     * 資料傳遞方式 (put/delete)
+     * 應用程式介面 API ( Application Programming Interface )
+2. 將上述列名詞畫出關係圖。
+   * 可參考
+3. 回答下列題目。
+4. 依照前二學習到的基礎常識串接API。
 
 ## 前端工具( 物件, 模組 )
 
@@ -43,7 +75,7 @@
 
 更進一步地，支援 HATEOAS（Hypermedia As The Engine Of Application State）的概念，就類似 HTML 頁面鏈結，你可以從這個頁面得知可通往哪些頁面，在 REST 的 Level 3 模型中，客戶端可以從某個資源，知道還有哪些其他相關的資源，以及如何對它進行操作，〈@RepositoryRestResource〉的範例專案，就是這一類。
 
-## 步驟
+## API 實作步驟
 
 1. 跟著步驟做 DTO 與 API
 2. 網址為 <https://localhost:44317/swagger/index.html>
