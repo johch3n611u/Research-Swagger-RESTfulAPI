@@ -21,6 +21,8 @@
      
      * 網頁生命週期 ( JS生命週期 )
      * 應用程式介面 API ( Application Programming Interface )
+     * AJAX ( Asynchronous JavaScript and XML )
+     * SPA ( 單頁面應用程式 Single Page Application ) / MPA ( 多頁面應用程式 Multi-page Application )
      * 靜態網站生成器 Static Site Generators / 客戶端渲染 Client Side Render / 伺服器端渲染 Server Side Render
      * 後端應用 ( Framework 程式框架 / Framework Language 程式語言 / 直、編譯 / 框架、語言生命週期 )
      * 後端應用 ( Database 資料庫 / Database Management System 資料庫管理系統 / SQL 資料庫管理系統語言 )
@@ -57,14 +59,14 @@
      2. 解釋 `程式框架` 、 `編譯/直譯` 、 `程式生命週期` 三者之間的關係 ?
         <details>
          <summary>參考答案</summary>
-         <p> 不同 `程式框架` 擁有不同的生命週期，但根據語言特性分為編譯與直譯，但不管是編譯或是直譯都是一行一行的讀取，讀完再換頁讀取，只要不是 .html 為副檔名都需要經過編譯成 html 檔案，瀏覽器才讀得懂。 </p> 
+         <p> 不同 `程式框架` 擁有不同的 `程式生命週期` ，但根據語言特性分為編譯與直譯，但不管是編譯或是直譯都是一行一行的讀取，讀完再換頁讀取，只要不是 .html 為副檔名都需要經過編譯成 html 檔案，瀏覽器才讀得懂。 </p> 
         </details>
      3. 以郵差寄信形容較簡單的 `集中式系統` 與 `OSI 七層` 或 `ICP/IP 五層` 之間的關係 ?  [> 可參考](http://eportfolio.lib.ksu.edu.tw/~4970Q063/blog?node=000100005)  
         <details>
          <summary>參考答案</summary>
          <p> 。 </p> 
         </details>
-        
+     4. AJAX 與 CSR 前端渲染 SPA 單頁應用程式 之間的關係
      <p> </p>
      <details>
        <summary>可參考</summary>
