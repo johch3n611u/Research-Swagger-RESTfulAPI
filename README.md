@@ -43,6 +43,7 @@
      * [網頁生命週期](https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/24350/)
      * [分散式系統](https://rickhw.github.io/2018/06/18/Architecture/Gossip-in-Distributed-Systems/#%E4%B8%89%E3%80%81%E7%95%B6%E4%BB%A3%E5%B7%A5%E7%A8%8B%E6%96%B9%E6%B3%95%E8%88%87%E5%AF%A6%E8%B8%90)
      * [ASP.NET C# 框架 生命週期](https://adon988.logdown.com/posts/7597721-asp-dot-net-life-cycle)
+     * [OSI七層實例](http://eportfolio.lib.ksu.edu.tw/~4970Q063/blog?node=000100005)
      
      </details>
 
@@ -60,7 +61,12 @@
          <summary>參考答案</summary>
          <p> 不同 `程式框架` 擁有不同的生命週期，但根據語言特性分為編譯與直譯，但不管是編譯或是直譯都是一行一行的讀取，讀完再換頁讀取，只要不是 .html 為副檔名都需要經過編譯成 html 檔案，瀏覽器才讀得懂。 </p> 
        </details>
-     
+     * 3. 以郵差寄信形容較簡單的 `集中式系統` 與 `OSI 七層` 或 `ICP/IP 五層` 之間的關係 ?  [> 可參考](http://eportfolio.lib.ksu.edu.tw/~4970Q063/blog?node=000100005)  
+       * _
+       <details>
+         <summary>參考答案</summary>
+         <p> 。 </p> 
+       </details>
      <p> </p>
      <details>
        <summary>可參考</summary>
