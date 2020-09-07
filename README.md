@@ -18,7 +18,7 @@
      * 封包 Data packet / 請求 Request / 回應 Response
      * 資料傳遞方式 get / post ( put / delete )
      * 應用程式介面 API ( Application Programming Interface )
-     * 後端應用 ( 程式框架 / 程式語言 )
+     * 後端應用 ( Framework 程式框架 / Framework Language 程式語言 / 直、編譯 / 框架、語言生命週期 )
      * 後端應用 ( Database 資料庫 / Database Management System 資料庫管理系統 / SQL 資料庫管理系統語言 )
      * 網頁生命週期 ( JS生命週期 )
      * 集中式系統 / 分散式系統
