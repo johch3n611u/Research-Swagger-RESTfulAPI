@@ -11,18 +11,22 @@
 1. 解釋下列名詞。
    
    * 名詞
-     * 靜態網站生成器 Static Site Generators / 客戶端渲染 Client Side Render / 伺服器端渲染 Server Side Render
      * 域名系統 DNS / 網路位址 IP / 域名 DomainName / 通訊埠 Port
      * 網路架構 (七層 OSI 模型)、(五層 TCP/IP 模型)
      * 網路協議 (Http/Https) (Socket) (HLS/RTMP)
      * 封包 Data packet / 請求 Request / 回應 Response
      * 封包傳遞方式 get / post ( put / delete )
+     
+     * 靜態網頁 / 動態網頁
+     
+     * 網頁生命週期 ( JS生命週期 )
      * 應用程式介面 API ( Application Programming Interface )
+     * 靜態網站生成器 Static Site Generators / 客戶端渲染 Client Side Render / 伺服器端渲染 Server Side Render
      * 後端應用 ( Framework 程式框架 / Framework Language 程式語言 / 直、編譯 / 框架、語言生命週期 )
      * 後端應用 ( Database 資料庫 / Database Management System 資料庫管理系統 / SQL 資料庫管理系統語言 )
-     * 網頁生命週期 ( JS生命週期 )
-     * 集中式系統 / 分散式系統
      
+     * 集中式系統 / 分散式系統
+
      <p> </p>
      <details>
        <summary>可參考</summary>
@@ -39,11 +43,20 @@
      * [分散式系統](https://rickhw.github.io/2018/06/18/Architecture/Gossip-in-Distributed-Systems/#%E4%B8%89%E3%80%81%E7%95%B6%E4%BB%A3%E5%B7%A5%E7%A8%8B%E6%96%B9%E6%B3%95%E8%88%87%E5%AF%A6%E8%B8%90)
      
      </details>
+
+2. 回答下列題目。
+   <details>
+       <summary>可參考</summary>
    
-2. 將上述列名詞畫出關係圖。
+   * 待補
+     
+   </details>
+   
+3. 將上述列名詞畫出關係圖。
    * 可參考
-3. 回答下列題目。
-4. 依照前二學習到的基礎常識串接API。
+4. 依照前二學習到的基礎常識串接API並推至 DBUG 專案。
+   * 步驟教學 :
+     * 1. 首先將此專案 clone 至本地 (目的是部屬 API後端程式環境)
 
 ## 前端工具( 物件, 模組 )
 
