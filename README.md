@@ -22,6 +22,12 @@
      * 後端應用 ( Database 資料庫 / Database Management System 資料庫管理系統 / SQL 資料庫管理系統語言 )
      * 網頁生命週期 ( JS生命週期 )
      * 集中式系統 / 分散式系統
+     
+     <details>
+       <summary>可參考</summary>
+  
+     </details>
+     
    * 可參考
      * W3C-JS
      * 六角 JS 課程 ( 比較攏長 )
