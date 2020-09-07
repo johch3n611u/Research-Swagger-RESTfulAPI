@@ -27,22 +27,23 @@
      
      * 集中式系統 / 分散式系統
 
----
 
-<details>
-       <summary>可參考</summary>
-* W3C-JS
-* 六角 JS 課程 ( 比較攏長 )
-* [網路基礎](https://medium.com/@miahsuwork/%E7%AC%AC%E5%85%AD%E9%80%B1-%E7%B6%B2%E8%B7%AF%E5%9F%BA%E7%A4%8E-http-request-response-7d7e0cb88ed8)
-* [網路基礎2](https://yakimhsu.com/project/project_w4_Network_http.html)
-* [網頁渲染方式](https://www.jianshu.com/p/f8b4f3776d9f)
-* [網頁渲染方式2](https://www.google.com/search?q=BSR%E3%80%81SSG%E3%80%81SSR&oq=BSR%E3%80%81SSG%E3%80%81SSR&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8)
-* [網路協議](https://twgame.wordpress.com/2015/02/03/tcpiphttpsocketudp/)
-* [Get/Post差別](https://www.google.com/search?sxsrf=ALeKk03llIX8j1ENlzd1w_55yKW6CQm-dA%3A1599410797452&ei=bRJVX9SbG863mAX6oaTwBA&q=get+post&oq=get+PO&gs_lcp=CgZwc3ktYWIQAxgAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoFCAAQsQM6BAgAEEM6CAgAELEDEIMBUJF7WLGGAWC4jwFoAHAAeACAAUCIAfkBkgEBNZgBAKABAqABAaoBB2d3cy13aXrAAQE&sclient=psy-ab)
-* [網頁生命週期](https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/24350/)
-* [分散式系統](https://rickhw.github.io/2018/06/18/Architecture/Gossip-in-Distributed-Systems/#%E4%B8%89%E3%80%81%E7%95%B6%E4%BB%A3%E5%B7%A5%E7%A8%8B%E6%96%B9%E6%B3%95%E8%88%87%E5%AF%A6%E8%B8%90)
+     <P> </P>
+     <details>
+       <summary>參考文章</summary>
      
-</details>
+     * W3C-JS
+     * 六角 JS 課程 ( 比較攏長 )
+     * [網路基礎](https://medium.com/@miahsuwork/%E7%AC%AC%E5%85%AD%E9%80%B1-%E7%B6%B2%E8%B7%AF%E5%9F%BA%E7%A4%8E-http-request-response-7d7e0cb88ed8)
+     * [網路基礎2](https://yakimhsu.com/project/project_w4_Network_http.html)
+     * [網頁渲染方式](https://www.jianshu.com/p/f8b4f3776d9f)
+     * [網頁渲染方式2](https://www.google.com/search?q=BSR%E3%80%81SSG%E3%80%81SSR&oq=BSR%E3%80%81SSG%E3%80%81SSR&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8)
+     * [網路協議](https://twgame.wordpress.com/2015/02/03/tcpiphttpsocketudp/)
+     * [Get/Post差別](https://www.google.com/search?sxsrf=ALeKk03llIX8j1ENlzd1w_55yKW6CQm-dA%3A1599410797452&ei=bRJVX9SbG863mAX6oaTwBA&q=get+post&oq=get+PO&gs_lcp=CgZwc3ktYWIQAxgAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoFCAAQsQM6BAgAEEM6CAgAELEDEIMBUJF7WLGGAWC4jwFoAHAAeACAAUCIAfkBkgEBNZgBAKABAqABAaoBB2d3cy13aXrAAQE&sclient=psy-ab)
+     * [網頁生命週期](https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/24350/)
+     * [分散式系統](https://rickhw.github.io/2018/06/18/Architecture/Gossip-in-Distributed-Systems/#%E4%B8%89%E3%80%81%E7%95%B6%E4%BB%A3%E5%B7%A5%E7%A8%8B%E6%96%B9%E6%B3%95%E8%88%87%E5%AF%A6%E8%B8%90)
+     
+     </details>
 
 2. 回答下列題目。
    * 題目
