@@ -46,7 +46,10 @@
 
 2. 回答下列題目。
    * 題目
-     * 1. 
+     * 1. 解釋動態與靜態網頁差別
+     <details>
+        <summary>參考答案</summary>
+     </details>
      
      <p> </p>
      <details>
