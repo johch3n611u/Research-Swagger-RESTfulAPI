@@ -42,12 +42,14 @@
      * [Get/Post差別](https://www.google.com/search?sxsrf=ALeKk03llIX8j1ENlzd1w_55yKW6CQm-dA%3A1599410797452&ei=bRJVX9SbG863mAX6oaTwBA&q=get+post&oq=get+PO&gs_lcp=CgZwc3ktYWIQAxgAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoFCAAQsQM6BAgAEEM6CAgAELEDEIMBUJF7WLGGAWC4jwFoAHAAeACAAUCIAfkBkgEBNZgBAKABAqABAaoBB2d3cy13aXrAAQE&sclient=psy-ab)
      * [網頁生命週期](https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/24350/)
      * [分散式系統](https://rickhw.github.io/2018/06/18/Architecture/Gossip-in-Distributed-Systems/#%E4%B8%89%E3%80%81%E7%95%B6%E4%BB%A3%E5%B7%A5%E7%A8%8B%E6%96%B9%E6%B3%95%E8%88%87%E5%AF%A6%E8%B8%90)
+     * [ASP.NET C# 框架 生命週期](https://adon988.logdown.com/posts/7597721-asp-dot-net-life-cycle)
      
      </details>
 
 2. 回答下列題目。
    * 題目
-     * 1. 解釋動態與靜態網頁差別
+     * 1. 解釋 `動態` 與 `靜態網頁` 差別
+     * 2. 不同 `程式框架`
      <details>
         <summary>參考答案</summary>
      </details>
