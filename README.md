@@ -22,7 +22,7 @@
      * 網頁生命週期 ( JS生命週期 )
      * 應用程式介面 API ( Application Programming Interface )
      * AJAX ( Asynchronous JavaScript and XML )
-     * SPA ( 單頁面應用程式 Single Page Application ) / MPA ( 多頁面應用程式 Multi-page Application )
+     * SPA ( 單頁面應用程式 Single Page Application ) / MPA ( 多頁面應用程式 Multi-page Application ) / PWA ( 漸進式應用程式 Progressive Web Application)
      * 靜態網站生成器 Static Site Generators / 客戶端渲染 Client Side Render / 伺服器端渲染 Server Side Render
      * 後端應用 ( Framework 程式框架 / Framework Language 程式語言 / 直、編譯 / 框架、語言生命週期 )
      * 後端應用 ( Database 資料庫 / Database Management System 資料庫管理系統 / SQL 資料庫管理系統語言 )
