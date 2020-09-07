@@ -9,6 +9,19 @@
 ## 題目
 
 1. 解釋下列名詞。
+   
+   * 名詞
+     * 靜態網站生成器 Static Site Generators / 客戶端渲染 Client Side Render / 伺服器端渲染 Server Side Render
+     * 域名系統 DNS / 網路位址 IP / 域名 DomainName / 通訊埠 Port
+     * 網路架構 (七層 OSI 模型)、(五層 TCP/IP 模型)
+     * 網路協議 (Http/Https) (Socket) (HLS/RTMP)
+     * 封包 Data packet / 請求 Request / 回應 Response
+     * 資料傳遞方式 get / post ( put / delete )
+     * 應用程式介面 API ( Application Programming Interface )
+     * 後端應用 ( 程式框架 / 程式語言 )
+     * 後端應用 ( Database 資料庫 / Database Management System 資料庫管理系統 / SQL 資料庫管理系統語言 )
+     * 網頁生命週期 ( JS生命週期 )
+     * 集中式系統 / 分散式系統
    * 可參考
      * W3C-JS
      * 六角 JS 課程 ( 比較攏長 )
@@ -20,16 +33,6 @@
      * [Get/Post差別](https://www.google.com/search?sxsrf=ALeKk03llIX8j1ENlzd1w_55yKW6CQm-dA%3A1599410797452&ei=bRJVX9SbG863mAX6oaTwBA&q=get+post&oq=get+PO&gs_lcp=CgZwc3ktYWIQAxgAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoFCAAQsQM6BAgAEEM6CAgAELEDEIMBUJF7WLGGAWC4jwFoAHAAeACAAUCIAfkBkgEBNZgBAKABAqABAaoBB2d3cy13aXrAAQE&sclient=psy-ab)
      * [網頁生命週期](https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/24350/)
      * [分散式系統](https://rickhw.github.io/2018/06/18/Architecture/Gossip-in-Distributed-Systems/#%E4%B8%89%E3%80%81%E7%95%B6%E4%BB%A3%E5%B7%A5%E7%A8%8B%E6%96%B9%E6%B3%95%E8%88%87%E5%AF%A6%E8%B8%90)
-   * 名詞
-     * 靜態網站生成器 Static Site Generators / 客戶端渲染 Client Side Render / 伺服器端渲染 Server Side Render
-     * 域名系統 DNS / 網路位址 IP / 域名 DomainName / 通訊埠 Port
-     * 網路架構 (七層 OSI 模型)、(五層 TCP/IP 模型)
-     * 網路協議 (Http/Https) (Socket) (HLS/RTMP)
-     * 封包 Data packet / 請求 Request / 回應 Response
-     * 資料傳遞方式 get / post ( put / delete )
-     * 應用程式介面 API ( Application Programming Interface )
-     * 網頁生命週期 ( JS生命週期 )
-     * 集中式系統 / 分散式系統
 2. 將上述列名詞畫出關係圖。
    * 可參考
 3. 回答下列題目。
