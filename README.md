@@ -55,10 +55,46 @@
          <p> 。 </p> 
         </details>
      4. `AJAX` 與 `CSR 前端渲染`、`SPA 單頁應用程式` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
+        <details>
+         <summary>參考答案</summary>
+         <p> 。 </p> 
+        </details>
+     5. `AJAX` 與 `CSR 前端渲染`、`SPA 單頁應用程式` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
+        <details>
+         <summary>參考答案</summary>
+         <p> 。 </p> 
+        </details>
+     6. `AJAX` 與 `CSR 前端渲染`、`SPA 單頁應用程式` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
+        <details>
+         <summary>參考答案</summary>
+         <p> 。 </p> 
+        </details>
+     7. `AJAX` 與 `CSR 前端渲染`、`SPA 單頁應用程式` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
+        <details>
+         <summary>參考答案</summary>
+         <p> 。 </p> 
+        </details>
+     8. `AJAX` 與 `CSR 前端渲染`、`SPA 單頁應用程式` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
+        <details>
+         <summary>參考答案</summary>
+         <p> 。 </p> 
+        </details>
+     9. `AJAX` 與 `CSR 前端渲染`、`SPA 單頁應用程式` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
+        <details>
+         <summary>參考答案</summary>
+         <p> 。 </p> 
+        </details>
+     10. `AJAX` 與 `CSR 前端渲染`、`SPA 單頁應用程式` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
+        <details>
+         <summary>參考答案</summary>
+         <p> 。 </p> 
+        </details>
+     
+     
      <p> </p>
      <details>
-       <summary>可參考</summary>
-   
+       <summary>延伸文章</summary>
+       <P> </P>
      * 待補
      
      </details>
