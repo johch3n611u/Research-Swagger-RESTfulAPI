@@ -14,7 +14,7 @@
      * `域名系統` DNS / `網路位址(RealName)` IP / `域名(NickName)` DomainName / `通訊埠` Port
      * `網路架構` (七層 OSI 模型)、(五層 TCP/IP 模型)
      * `網路協議` (Http/Https) (Socket) (HLS/RTMP)
-     * `封包` Data packet / 請求 Request / 回應 Response
+     * `封包` Data packet / `請求` Request / `回應` Response
      * `封包傳遞方式` get / post ( put / delete )
      
      * `靜態網頁` / `動態網頁`
@@ -23,11 +23,11 @@
      * `應用程式介面(接口)` API ( Application Programming Interface )
      * `網頁技術-資料索取方式` AJAX ( Asynchronous JavaScript and XML )
      * `網頁技術-資料組成` SPA ( 單頁面應用程式 Single Page Application ) / MPA ( 多頁面應用程式 Multi-page Application ) / PWA ( 漸進式應用程式 Progressive Web Application)
-     * `網頁技術-頁面產生方式` 靜態網站生成器 Static Site Generators / 客戶端渲染 Client Side Render / 伺服器端渲染 Server Side Render
-     * 後端應用 ( Framework 程式框架 / Framework Language 程式語言 / 直、編譯 / 框架、語言生命週期 )
-     * 後端應用 ( Database 資料庫 / Database Management System 資料庫管理系統 / SQL 資料庫管理系統語言 )
+     * `網頁技術-頁面產生方式` ( `靜態網站生成器` Static Site Generators / `客戶端渲染` Client Side Render / `伺服器端渲染` Server Side Render )
+     * `後端應用` ( Framework `程式框架` / Framework Language `程式語言` / `直、編譯` / `框架、語言生命週期` )
+     * `後端應用` ( Database `資料庫` / Database Management System `資料庫管理系統` / SQL `資料庫管理系統語言` )
      
-     * 集中式系統 / 分散式系統
+     * `集中式系統` / `分散式系統`
 
 
      <P> </P>
@@ -66,7 +66,7 @@
          <summary>參考答案</summary>
          <p> 。 </p> 
         </details>
-     4. AJAX 與 CSR 前端渲染 SPA 單頁應用程式 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
+     4. `AJAX` 與 `CSR 前端渲染`、`SPA 單頁應用程式` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
      <p> </p>
      <details>
        <summary>可參考</summary>
