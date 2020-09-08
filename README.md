@@ -11,42 +11,31 @@
 1. 一句話簡單解釋下列名詞。
    
    * 名詞
-     * `域名系統` DNS / `網路位址(RealName)` IP / `域名(NickName)` DomainName / `通訊埠` Port
-     * `網路架構` (七層 OSI 模型)、(五層 TCP/IP 模型)
-     * `網路協議` (Http/Https) (Socket) (HLS/RTMP)
-     * `封包` Data packet / `請求` Request / `回應` Response
-     * `封包傳遞方式` get / post ( put / delete )
+     * `域名系統` DNS / `網路位址(RealName)` IP / `域名(NickName)` DomainName / `通訊埠` Port [> 可參考](https://medium.com/@miahsuwork/%E7%AC%AC%E5%85%AD%E9%80%B1-%E7%B6%B2%E8%B7%AF%E5%9F%BA%E7%A4%8E-http-request-response-7d7e0cb88ed8)
+     * `網路架構` (七層 OSI 模型)、(五層 TCP/IP 模型) [> 可參考](http://eportfolio.lib.ksu.edu.tw/~4970Q063/blog?node=000100005)
+     * `網路協議` (Http/Https) (Socket) (HLS/RTMP) [> 可參考](https://twgame.wordpress.com/2015/02/03/tcpiphttpsocketudp/)
+     * `封包` Data packet / `請求` Request / `回應` Response [> 可參考](https://yakimhsu.com/project/project_w4_Network_http.html)
+     * `封包傳遞方式` get / post ( put / delete ) [> 可參考](https://www.google.com/search?sxsrf=ALeKk03llIX8j1ENlzd1w_55yKW6CQm-dA%3A1599410797452&ei=bRJVX9SbG863mAX6oaTwBA&q=get+post&oq=get+PO&gs_lcp=CgZwc3ktYWIQAxgAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoFCAAQsQM6BAgAEEM6CAgAELEDEIMBUJF7WLGGAWC4jwFoAHAAeACAAUCIAfkBkgEBNZgBAKABAqABAaoBB2d3cy13aXrAAQE&sclient=psy-ab)
      
      * `靜態網頁` / `動態網頁`
      
-     * `網頁生命週期` ( JS生命週期 )
+     * `網頁生命週期` ( JS生命週期 ) [> 可參考](https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/24350/)
      * `應用程式介面(接口)` API ( Application Programming Interface )
      * `網頁技術-資料索取方式` AJAX ( Asynchronous JavaScript and XML )
      * `網頁技術-資料組成` SPA ( 單頁面應用程式 Single Page Application ) / MPA ( 多頁面應用程式 Multi-page Application ) / PWA ( 漸進式應用程式 Progressive Web Application)
-     * `網頁技術-頁面產生方式` ( `靜態網站生成器` Static Site Generators / `客戶端渲染` Client Side Render / `伺服器端渲染` Server Side Render )
-     * `後端應用` ( Framework `程式框架` / Framework Language `程式語言` / `直、編譯` / `框架、語言生命週期` )
+     * `網頁技術-頁面產生方式` ( `靜態網站生成器` Static Site Generators / `客戶端渲染` Client Side Render / `伺服器端渲染` Server Side Render )[> 可參考](https://www.jianshu.com/p/f8b4f3776d9f)
+     * `後端應用` ( Framework `程式框架` / Framework Language `程式語言` / `直、編譯` / `框架、語言生命週期` [> 可參考](https://adon988.logdown.com/posts/7597721-asp-dot-net-life-cycle) )
      * `後端應用` ( Database `資料庫` / Database Management System `資料庫管理系統` / SQL `資料庫管理系統語言` )
      
-     * `集中式系統` / `分散式系統`
+     * `集中式系統` / `分散式系統` [> 可參考](https://rickhw.github.io/2018/06/18/Architecture/Gossip-in-Distributed-Systems/#%E4%B8%89%E3%80%81%E7%95%B6%E4%BB%A3%E5%B7%A5%E7%A8%8B%E6%96%B9%E6%B3%95%E8%88%87%E5%AF%A6%E8%B8%90)
 
 
      <P> </P>
      <details>
-       <summary>參考文章</summary>
+       <summary>延伸文章</summary>
      
-     * W3C-JS
-     * 六角 JS 課程 ( 比較攏長 )
-     * [網路基礎](https://medium.com/@miahsuwork/%E7%AC%AC%E5%85%AD%E9%80%B1-%E7%B6%B2%E8%B7%AF%E5%9F%BA%E7%A4%8E-http-request-response-7d7e0cb88ed8)
-     * [網路基礎2](https://yakimhsu.com/project/project_w4_Network_http.html)
-     * [網頁渲染方式](https://www.jianshu.com/p/f8b4f3776d9f)
-     * [網頁渲染方式2](https://www.google.com/search?q=BSR%E3%80%81SSG%E3%80%81SSR&oq=BSR%E3%80%81SSG%E3%80%81SSR&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8)
-     * [網路協議](https://twgame.wordpress.com/2015/02/03/tcpiphttpsocketudp/)
-     * [Get/Post差別](https://www.google.com/search?sxsrf=ALeKk03llIX8j1ENlzd1w_55yKW6CQm-dA%3A1599410797452&ei=bRJVX9SbG863mAX6oaTwBA&q=get+post&oq=get+PO&gs_lcp=CgZwc3ktYWIQAxgAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoFCAAQsQM6BAgAEEM6CAgAELEDEIMBUJF7WLGGAWC4jwFoAHAAeACAAUCIAfkBkgEBNZgBAKABAqABAaoBB2d3cy13aXrAAQE&sclient=psy-ab)
-     * [網頁生命週期](https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/24350/)
-     * [分散式系統](https://rickhw.github.io/2018/06/18/Architecture/Gossip-in-Distributed-Systems/#%E4%B8%89%E3%80%81%E7%95%B6%E4%BB%A3%E5%B7%A5%E7%A8%8B%E6%96%B9%E6%B3%95%E8%88%87%E5%AF%A6%E8%B8%90)
-     * [ASP.NET C# 框架 生命週期](https://adon988.logdown.com/posts/7597721-asp-dot-net-life-cycle)
-     * [OSI七層實例](http://eportfolio.lib.ksu.edu.tw/~4970Q063/blog?node=000100005)
-     
+     * [三種渲染畫面方式](https://juejin.im/post/6855917901090652174)
+
      </details>
 
 2. 一句話簡單回答下列題目。
