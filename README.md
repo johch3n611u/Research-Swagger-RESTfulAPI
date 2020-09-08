@@ -79,12 +79,12 @@
          <summary>參考答案</summary>
          <p> 。 </p> 
         </details>
-     9. `AJAX` 與 `CSR 前端渲染`、`SPA 單頁應用程式` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
+     9. `後端應用`、`資料庫應用`、`API 接口` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
         <details>
          <summary>參考答案</summary>
          <p> 。 </p> 
         </details>
-     10. `AJAX` 與 `CSR 前端渲染`、`SPA 單頁應用程式` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
+     10. `集中式系統`、`分散式系統` 之間的差異 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
          <details>
           <summary>參考答案</summary>
           <p> 。 </p> 
