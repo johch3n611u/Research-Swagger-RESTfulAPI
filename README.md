@@ -54,12 +54,12 @@
          <summary>參考答案</summary>
          <p> 。 </p> 
         </details>
-     4. `AJAX` 與 `CSR 前端渲染`、`SPA 單頁應用程式` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
+     4. `AJAX` 與 `CSR 前端渲染`、`SPA 單頁應用程式` 之間的關係 ? [> 可參考]()
         <details>
          <summary>參考答案</summary>
          <p> 。 </p> 
         </details>
-     5. 封包傳遞方法 `POST` 與 `GET` 之間的差異 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
+     5. 封包傳遞方法 `POST` 與 `GET` 之間的差異 ? [> 可參考]()
         <details>
          <summary>參考答案</summary>
          <p> 。 </p> 
