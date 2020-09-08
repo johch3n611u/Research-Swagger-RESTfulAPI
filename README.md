@@ -33,13 +33,12 @@
      <P> </P>
      <details>
        <summary>延伸文章</summary>
-     
+       <P> </P>
      * [三種渲染畫面方式](https://juejin.im/post/6855917901090652174)
 
      </details>
 
 2. 一句話簡單回答下列題目。
-   * 題目
      1. 解釋 `動態` 與 `靜態網頁` 差別 ?
         <details>
           <summary>參考答案</summary>
