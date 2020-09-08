@@ -19,12 +19,12 @@
      
      * `靜態網頁` / `動態網頁`
      
-     * `網頁生命週期` ( JS生命週期 ) [> 可參考](https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/24350/)
+     * `網頁生命週期(流程)` ( JS生命週期 ) [> 可參考](https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/24350/)
      * `資料傳輸定義 - 應用程式介面(接口)` `API` ( Application Programming Interface )
      * `網頁技術 - 資料索取方式` `AJAX` ( Asynchronous JavaScript and XML )
      * `網頁技術 - 資料組成` `SPA` ( 單頁面應用程式 Single Page Application ) / `MPA` ( 多頁面應用程式 Multi-page Application ) / `PWA` ( 漸進式應用程式 Progressive Web Application) [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
      * `網頁技術-頁面產生方式` ( `靜態網站生成器` Static Site Generators / `客戶端渲染` Client Side Render / `伺服器端渲染` Server Side Render )[> 可參考](https://www.jianshu.com/p/f8b4f3776d9f)
-     * `後端應用` ( Framework `程式框架` / Framework Language `程式語言` / `直、編譯` / `框架、語言生命週期` [> 可參考 wiki 有寫很詳細這三個名詞差異](https://adon988.logdown.com/posts/7597721-asp-dot-net-life-cycle) )
+     * `後端應用` ( Framework `程式框架` / Framework Language `程式語言` / `直、編譯` / `框架、語言生命週期(流程)` [> 可參考 wiki 有寫很詳細這三個名詞差異](https://adon988.logdown.com/posts/7597721-asp-dot-net-life-cycle) )
      * `後端應用` ( Database `資料庫` / Database Management System `資料庫管理系統` / SQL `資料庫管理系統語言` ) [> 可參考 wiki 有寫很詳細這三個名詞差異](#)
      
      * `集中式系統` / `分散式系統` [> 可參考](https://rickhw.github.io/2018/06/18/Architecture/Gossip-in-Distributed-Systems/#%E4%B8%89%E3%80%81%E7%95%B6%E4%BB%A3%E5%B7%A5%E7%A8%8B%E6%96%B9%E6%B3%95%E8%88%87%E5%AF%A6%E8%B8%90)
@@ -59,12 +59,12 @@
          <summary>參考答案</summary>
          <p> 。 </p> 
         </details>
-     5. `AJAX` 與 `CSR 前端渲染`、`SPA 單頁應用程式` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
+     5. 簡單解釋封包傳遞方法 `POST` 與 `GET` 之間的差異 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
         <details>
          <summary>參考答案</summary>
          <p> 。 </p> 
         </details>
-     6. `AJAX` 與 `CSR 前端渲染`、`SPA 單頁應用程式` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
+     6. 簡單解釋`生命週期(流程)`、`控制邏輯`、`元件庫/元件/函式庫/函式/模組/API` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
         <details>
          <summary>參考答案</summary>
          <p> 。 </p> 
