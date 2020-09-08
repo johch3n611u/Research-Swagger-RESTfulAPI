@@ -95,8 +95,7 @@
      <details>
        <summary>延伸文章</summary>
        <P> </P>
-     * 待補
-     
+       * 待補
      </details>
    
 3. 將上述名詞補進關係圖內。
