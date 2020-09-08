@@ -23,7 +23,7 @@
      * `資料傳輸定義 - 應用程式介面(接口)` `API` ( Application Programming Interface )
      * `網頁技術 - 資料索取方式` `AJAX` ( Asynchronous JavaScript and XML )
      * `網頁技術 - 資料組成` `SPA` ( 單頁面應用程式 Single Page Application ) / `MPA` ( 多頁面應用程式 Multi-page Application ) / `PWA` ( 漸進式應用程式 Progressive Web Application) [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
-     * `網頁技術-頁面產生方式` ( `靜態網站生成器` Static Site Generators / `客戶端渲染` Client Side Render / `伺服器端渲染` Server Side Render )[> 可參考](https://www.jianshu.com/p/f8b4f3776d9f)
+     * `網頁技術 - 頁面產生方式` ( `靜態網站生成器` Static Site Generators / `客戶端渲染` Client Side Render / `伺服器端渲染` Server Side Render )[> 可參考](https://www.jianshu.com/p/f8b4f3776d9f)
      * `後端應用` ( Framework `程式框架` / Framework Language `程式語言` / `直、編譯` / `框架、語言生命週期(流程)` [> 可參考 wiki 有寫很詳細這三個名詞差異](https://adon988.logdown.com/posts/7597721-asp-dot-net-life-cycle) )
      * `後端應用` ( Database `資料庫` / Database Management System `資料庫管理系統` / SQL `資料庫管理系統語言` ) [> 可參考 wiki 有寫很詳細這三個名詞差異](#)
      
@@ -69,7 +69,7 @@
          <summary>參考答案</summary>
          <p> 。 </p> 
         </details>
-     7. `AJAX` 與 `CSR 前端渲染`、`SPA 單頁應用程式` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
+     7. 簡單解釋上述 `頁面組成` 、 `頁面產生方式` 之間的差異 ? 與 `資料索取方式` 之間的關係 ?  [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
         <details>
          <summary>參考答案</summary>
          <p> 。 </p> 
