@@ -39,12 +39,12 @@
      </details>
 
 2. 一句話簡單回答下列題目。
-     1. 解釋 `動態` 與 `靜態網頁` 差別 ?
+     1. `動態` 與 `靜態網頁` 差別 ?
         <details>
           <summary>參考答案</summary>
           <p> 靜態網頁副檔案名稱為 .html，動態網頁則依據不同的框架、不同的程式語言而有多種副檔名，唯一不變的是，通常除了快取用途而載入客戶端(本地/本機)的檔案，不管是靜或動態檔案都會放置於伺服器端(後端/雲端)再藉由請求提供響應至客戶端。 </p> 
         </details>
-     2. 解釋 `程式框架` 、 `編譯/直譯` 、 `程式生命週期` 三者之間的關係 ?
+     2. `程式框架` 、 `編譯/直譯` 、 `程式生命週期` 三者之間的關係 ?
         <details>
          <summary>參考答案</summary>
          <p> 不同 `程式框架` 擁有不同的 `程式生命週期` ，但根據語言特性分為編譯與直譯，但不管是編譯或是直譯都是一行一行的讀取，讀完再換頁讀取，只要不是 .html 為副檔名都需要經過編譯成 html 檔案，瀏覽器才讀得懂。 </p> 
@@ -59,22 +59,22 @@
          <summary>參考答案</summary>
          <p> 。 </p> 
         </details>
-     5. 簡單解釋封包傳遞方法 `POST` 與 `GET` 之間的差異 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
+     5. 封包傳遞方法 `POST` 與 `GET` 之間的差異 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
         <details>
          <summary>參考答案</summary>
          <p> 。 </p> 
         </details>
-     6. 簡單解釋`生命週期(流程)`、`控制邏輯`、`元件庫/元件/函式庫/函式/模組/API` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
+     6. `生命週期(流程)`、`控制邏輯`、`元件庫/元件/函式庫/函式/模組/API` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
         <details>
          <summary>參考答案</summary>
          <p> 。 </p> 
         </details>
-     7. 簡單解釋上述 `頁面組成` 、 `頁面產生方式` 之間的差異 ? 與 `資料索取方式` 之間的關係 ?  [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
+     7. 上述 `頁面組成` 、 `頁面產生方式` 之間的差異 ? 與 `資料索取方式` 之間的關係 ?  [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
         <details>
          <summary>參考答案</summary>
          <p> 。 </p> 
         </details>
-     8. `AJAX` 與 `CSR 前端渲染`、`SPA 單頁應用程式` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
+     8. `資料庫`、`資料庫管理系統`、`資料庫管理系統語言` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
         <details>
          <summary>參考答案</summary>
          <p> 。 </p> 
