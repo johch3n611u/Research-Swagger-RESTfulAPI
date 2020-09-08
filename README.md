@@ -85,10 +85,10 @@
          <p> 。 </p> 
         </details>
      10. `AJAX` 與 `CSR 前端渲染`、`SPA 單頁應用程式` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
-        <details>
-         <summary>參考答案</summary>
-         <p> 。 </p> 
-        </details>
+         <details>
+          <summary>參考答案</summary>
+          <p> 。 </p> 
+         </details>
      
      
      <p> </p>
