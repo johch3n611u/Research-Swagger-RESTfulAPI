@@ -10,7 +10,7 @@
 
 1. 一句話簡單解釋下列名詞。
    
-   * 名詞
+   
      * `域名系統` DNS / `網路位址(RealName)` IP / `域名(NickName)` DomainName / `通訊埠` Port [> 可參考](https://medium.com/@miahsuwork/%E7%AC%AC%E5%85%AD%E9%80%B1-%E7%B6%B2%E8%B7%AF%E5%9F%BA%E7%A4%8E-http-request-response-7d7e0cb88ed8)
      * `網路架構` (七層 OSI 模型)、(五層 TCP/IP 模型) [> 可參考](http://eportfolio.lib.ksu.edu.tw/~4970Q063/blog?node=000100005)
      * `網路協議` (Http/Https) (Socket) (HLS/RTMP) [> 可參考](https://twgame.wordpress.com/2015/02/03/tcpiphttpsocketudp/)
