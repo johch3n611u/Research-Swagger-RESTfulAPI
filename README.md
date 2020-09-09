@@ -62,8 +62,9 @@
      5. 封包傳遞方法 `POST` 與 `GET` 之間的差異 ? [> 可參考](https://blog.toright.com/posts/1203/%E6%B7%BA%E8%AB%87-http-method%EF%BC%9A%E8%A1%A8%E5%96%AE%E4%B8%AD%E7%9A%84-get-%E8%88%87-post-%E6%9C%89%E4%BB%80%E9%BA%BC%E5%B7%AE%E5%88%A5%EF%BC%9F.html)
         <details>
          <summary>參考答案</summary>
-         <p>GET 像明信片對外、顯示明碼於URL上、較小不能塞過多的資訊，POST像信封、將明碼藏於封包內、較大能塞較多資訊，但後者相較於前者只是較隱匿並不能阻止想查閱信件內容的人讀取信件。兩者大小限制[> 可參考](https://www.itread01.com/content/1546869788.html)</p> 
-        </details>
+         <p>GET 像明信片對外、顯示明碼於URL上、較小不能塞過多的資訊，POST像信封、將明碼藏於封包內、較大能塞較多資訊，但後者相較於前者只是較隱匿並不能阻止想查閱信件內容的人讀取信件。兩者大小限制</p> 
+        </details> 
+        [> 可參考](https://www.itread01.com/content/1546869788.html)
      6. `生命週期(流程)`、`控制邏輯`、`元件庫/元件/函式庫/函式/模組/API` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
         <details>
          <summary>參考答案</summary>
