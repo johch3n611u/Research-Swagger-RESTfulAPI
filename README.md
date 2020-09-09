@@ -64,7 +64,9 @@
          <summary>參考答案</summary>
          <p>GET 像明信片對外、顯示明碼於URL上、較小不能塞過多的資訊，POST像信封、將明碼藏於封包內、較大能塞較多資訊，但後者相較於前者只是較隱匿並不能阻止想查閱信件內容的人讀取信件。兩者大小限制</p> 
         </details> 
+        
         [> 可參考](https://www.itread01.com/content/1546869788.html)
+        
      6. `生命週期(流程)`、`控制邏輯`、`元件庫/元件/函式庫/函式/模組/API` 之間的關係 ? [> 可參考](https://blog.csdn.net/style_zyh/article/details/74216593)
         <details>
          <summary>參考答案</summary>
