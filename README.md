@@ -4,7 +4,7 @@
 
 ## 目的
 
-幫老弟寫 API ，好練習串 API 接口與 ajax SSR 並補充網站姿勢，順便嘗試 RESTfulAPI 的 Lv 1 - 3，與 Swagger 套件。
+幫老弟寫 API ，好練習串 API 接口與 ajax SSR 並補充網站知識，順便嘗試 RESTfulAPI 的 Lv 1 - 3，與 Swagger 套件。
 
 ## 概括網站系統設計
 
@@ -12,7 +12,7 @@
 
 ![alt](/網頁生命週期.png)
 
-1. 一句話簡單解釋下列名詞。
+1. 理解下列名詞知道即可。
 
 
      * `域名系統` DNS / `網路位址(RealName)` IP / `域名(NickName)` DomainName / `通訊埠` Port [> 可參考](https://medium.com/@miahsuwork/%E7%AC%AC%E5%85%AD%E9%80%B1-%E7%B6%B2%E8%B7%AF%E5%9F%BA%E7%A4%8E-http-request-response-7d7e0cb88ed8)
@@ -42,7 +42,7 @@
 
      </details>
 
-2. 一句話簡單回答下列題目。
+2. 簡單理解下列題目。
      1. `動態` 與 `靜態網頁` 差別 ?
         <details>
           <summary>參考答案</summary>
