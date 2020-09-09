@@ -105,6 +105,24 @@
 
 3. 依照前三學習到的基礎常識，並依照下列步驟，串接API並推版至 DBUG 專案。
    1. 首先將此專案 clone 至本地 (目的是部屬 API框架後端程式)
+   2. 新建一資料夾用 vscode 打開資料夾 ctrl + p ， > git: clone
+   3. DPERFUME-API 資料夾是用 .net core 框架 寫的 api 專案
+   4. 接著這邊先暫時擱置備用，先處理 DBUG 版控
+   5. 首先登入 DBUG 點擊 NEW 並新增此次 API 練習用專案 Public 檔名需能辨識出此次練習技術
+   ![alt](/img/1.png)
+   6. 照著第二步驟將此專案挑個資料夾版控，並建立第一個 README.md 檔案紀錄所作步驟與遇到的問題與解法。
+   7. 接著將此次 DPERFUME-API 資料夾 複製剪貼至此
+   8. 並將此次要串接的首頁 css 與 html 搬至此新建一資料夾放置靜態網頁 大致上的畫面如下
+   ![alt](/img/2.png)
+   9. 接著打開 DPERFUME-API 資料夾 用 visual studio 打開 sln 專案檔
+   10. 試著對方案重建 看是否有報錯
+   ![alt](/img/3.png)
+   11. 接著按下 debug 模式，利用 visual studio debug 虛擬 iis 來進行串接。
+   12. 此模式會產生一個虛擬 iis 伺服器並將此 api 網站架設於此，必須藉由 debug 模式才會啟動，後續想了解如何部屬至真正的 iis 再問我
+   ![alt](/img/4.png)
+   13. 接著程式會自動開啟預設的 Swagger API 介紹畫面
+   14. 接著就是要了解如何串接資料，為避免麻煩先將 ALL 會產生的 JSON 資料貼於下方便解釋
+
 
 > 以下為API框架後端程式 實作，不用特別看
 
