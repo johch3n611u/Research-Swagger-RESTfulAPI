@@ -120,22 +120,34 @@
    11. 接著按下 debug 模式，利用 visual studio debug 虛擬 iis 來進行串接。
    12. 此模式會產生一個虛擬 iis 伺服器並將此 api 網站架設於此，必須藉由 debug 模式才會啟動，後續想了解如何部屬至真正的 iis 再問我
    ![alt](/img/4.png)
-   13. 接著程式會自動開啟預設的 Swagger API 介紹畫面
+   13. 接著程式會自動開啟預設的 Swagger API 介紹畫面，此頁面只是方便測試 api 有需要再來用
    14. 接著就是要了解如何串接資料，為避免麻煩先將 ALL 會產生的 JSON 資料貼於下方便解釋
-
-
-> 以下為API框架後端程式 實作，不用特別看
-
----
-
-![alt](/TryIt.gif)
+   15. <https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/All.json>
+   16. 將上列 json 的內容複製於以下 方便解釋此 json 資料結構
+   17. <https://jsoneditoronline.org/#left=local.hedozu&right=local.denobi>
+   18. 複製於左按下 Copy 右邊則是此次 JSON 的資料結構
+   19. JSON 是由 KEY VALUE 所組成的格式，有一些制式化的規定如以下
+       * 最外層必須由 {} 花括弧包住代表著這是 JSON 物件
+       * KEY 必須用 雙引號 包覆
+       * Value 可以是 "字串" 、 123 數字 、 null 、 {物件} 、 [陣列]，並用 , 逗點相隔
+   ![alt](/img/5.png)
+   20. 展開右側可以看到範例此次所有型別都有包含
+   21. 接著介紹範例 JSON 設計的結構方便串接
+   22. 首先 Layout 內涵蓋 header 與 footer 與 shopcar 的資料
+   23. 然後 banner 則是看版圖的資料
+   24. columnProducts 則是橫排商品資料
+   25. steps 則是步驟所需資料
+   26. rowProducts 則是直排商品資料
+   27. finalProduct 則是最底的商品資料
+   28. 目前資料筆數都依照畫面調出
+   29. 接著就是實作了
+   30. 接著先看完以下文章了解如何串接 ajax
 
 ## 前端工具( 物件, 模組 )
 
-* 此次會要求老弟嘗試三種方法
-  * XMLHttpRequest 原生 API
-  * jQuery.ajax() 第三方庫
-  * fetch 原生 API
+* XMLHttpRequest 原生 API
+* jQuery.ajax() 第三方庫
+* fetch 原生 API
 
 <https://developer.mozilla.org/zh-TW/docs/Web/API/Fetch_API/Using_Fetch>
 
@@ -144,6 +156,15 @@
 <https://developer.mozilla.org/zh-TW/docs/Web/API>
 
 <https://www.itread01.com/content/1564589404.html>
+
+   ![alt](/img/6.png)
+   31. 對著URL 調用 API 則可以得到 JSON 的 Response
+
+> 以下為API框架後端程式 實作，不用特別看
+
+---
+
+![alt](/TryIt.gif)
 
 ## [RESTfulAPI 簡介 by https://openhome.cc](https://openhome.cc/Gossip/Spring/HATEOAS.html)
 
