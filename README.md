@@ -157,8 +157,9 @@
 
 <https://www.itread01.com/content/1564589404.html>
 
-   ![alt](/img/6.png)
-   31. 對著URL 調用 API 則可以得到 JSON 的 Response
+1. 看完了文章後
+2. 試著對著URL 調用 API 則可以得到 JSON 的 Response
+![alt](/img/6.png)
 
 > 以下為API框架後端程式 實作，不用特別看
 
