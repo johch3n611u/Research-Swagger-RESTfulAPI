@@ -109,17 +109,25 @@
    <p> 3. 克隆好後打開資料夾會看到， DPERFUME-API 資料夾是用 .net core 框架 寫的 api 專案。
    <p> 4. 接著這邊先暫時擱置備用，先處理 DBUG 版控。
    <p> 5. 首先登入github DBUG 點擊 NEW 並新增此次 API 練習用 Public 專案，檔名建議需能辨識出此次練習技術。
+   
    ![alt](/img/1.png)
+   
    <p> 6. 照著第二步驟將此專案挑個資料夾版控，並建立 README.md 檔案，紀錄所作步驟與遇到的問題與解法。
    <p> 7. 接著將API專案 DPERFUME-API 資料夾 複製剪貼至此。
    <p> 8. 並將此次要串接的首頁 css 與 html 搬至此新建一資料夾放置靜態網頁，大致上的畫面如下。
+   
    ![alt](/img/2.png)
+   
    <p> 9. 接著打開 DPERFUME-API 資料夾 用 visual studio 打開 附檔名為 .sln 的專案檔。
    <p> 10. 試著重建方案，看是否有報錯。
+   
    ![alt](/img/3.png)
+   
    <p> 11. 接著按下 debug 模式，利用 visual studio debug 虛擬 iis 來進行虛擬架站。
    <p> 12. 此模式會產生一個虛擬 iis 伺服器並將此 api 網站架設於此，必須藉由 debug 模式才會啟動，後續想了解如何部屬至真正的 iis 再問我。
+   
    ![alt](/img/4.png)
+   
    <p> 13. 接著程式會自動開啟預設的 Swagger API 介紹畫面，此頁面只是方便測試 api 有需要再來用，通常業界是用 PostMan 軟體。
    <p> 14. 接著就是要了解如何串接資料，為避免麻煩先將 api ALL 會產生的 JSON 資料貼於下方便解釋。後續會解釋如何向 api 框架要求 json 的 responce。
    <p> 15. <a href="https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/All.json">https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/All.json</a>
@@ -130,7 +138,9 @@
        * 最外層必須由 {} 花括弧包住代表著這是 JSON 物件
        * KEY 必須用 雙引號 包覆
        * Value 可以是 "字串" 、 123 數字 、 null 、 {物件} 、 [陣列]，並用 , 逗點相隔
+   
    ![alt](/img/5.png)
+   
    <p> 20. 展開右側可以看到範例此次所有型別都有包含，如果格式有錯此網頁會自動提示，通常編輯器也會，可以試看看。
    <p> 21. 接著介紹範例 JSON 設計的結構方便串接。
        * 首先 Layout 內涵蓋 header 與 footer 與 shopcar 的資料
