@@ -133,15 +133,15 @@
    ![alt](/img/5.png)
    20. 展開右側可以看到範例此次所有型別都有包含
    21. 接著介紹範例 JSON 設計的結構方便串接
-   22. 首先 Layout 內涵蓋 header 與 footer 與 shopcar 的資料
-   23. 然後 banner 則是看版圖的資料
-   24. columnProducts 則是橫排商品資料
-   25. steps 則是步驟所需資料
-   26. rowProducts 則是直排商品資料
-   27. finalProduct 則是最底的商品資料
-   28. 目前資料筆數都依照畫面調出
-   29. 接著就是實作了
-   30. 接著先看完以下文章了解如何串接 ajax
+       * 首先 Layout 內涵蓋 header 與 footer 與 shopcar 的資料
+       * 然後 banner 則是看版圖的資料
+       * columnProducts 則是橫排商品資料
+       * steps 則是步驟所需資料
+       * rowProducts 則是直排商品資料
+       * finalProduct 則是最底的商品資料
+       * 目前資料筆數都依照畫面調出
+       * 接著在實作 AJAX 前端資料索取方式前，我們先在利用
+       
 
 ## 前端工具( 物件, 模組 )
 
