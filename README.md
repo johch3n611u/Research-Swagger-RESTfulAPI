@@ -107,38 +107,45 @@
    <p> 3. 克隆好後打開資料夾會看到， DPERFUME-API 資料夾 是用 .net core 框架 寫的 api 專案。</p>
    <p> 4. 接著這邊先暫時擱置備用，先處理 DBUG 版控。</p>
    <p> 5. 首先登入 github DBUG 點擊 NEW 並新增此次 API 練習用 Public 專案，檔名建議需能辨識出此次練習技術 e.g. Side-Project-AJAX-API-Cascade。</p>
-   
+
    ![alt](/img/1.png)
-   
+
    <p> 6. 照著第二步驟將此 專案 挑個 資料夾版控，並建立 README.md 檔案，紀錄所作步驟與遇到的問題與解法。</p>
    <p> 7. 接著將 API專案 DPERFUME-API 資料夾 複製剪貼至此。</p>
    <p> 8. 並將此次要串接的靜態檔案 ( html / css / js ) 搬至此新建資料夾 放置靜態檔案，大致上的畫面如下。</p>
-   
+
    ![alt](/img/2.png)
-   
+
    <p> 9. 接著打開 DPERFUME-API 資料夾 用 visual studio 打開 附檔名為 .sln 的專案檔， visual studio 與 vscode 差別就是一個是 IDE ( 整合開發環境 Integrated Development Environment ) 一個是比較偏向 文字編輯器 <a href="https://www.google.com/search?q=IDE+%E5%B7%AE%E5%88%A5+%E6%96%87%E5%AD%97%E7%B7%A8%E8%BC%AF%E5%99%A8&rlz=1C1CHBF_zh-TWTW905TW905&oq=IDE+%E5%B7%AE%E5%88%A5+%E6%96%87%E5%AD%97%E7%B7%A8%E8%BC%AF%E5%99%A8&aqs=chrome..69i57.6434j0j1&sourceid=chrome&ie=UTF-8">> 可參考</a>。<hr><details><summary>整合開發環境 vs 文字編輯器</summary><p></p><p>程式語言可以分成兩種型式 1. 直譯式語言 2. 編譯式語言</p><p>直譯式語言，當你的代碼寫完後，直接餵給執行環境就能運行，常見的例子是 Javascript，寫完後不需要做特別的處理，直接餵給執行環境 ( 以 Chrome 瀏覽器來說為 V8 engine )，就能夠執行了</p><p>編譯式語言，代碼寫完後要先透過 編譯器 ( compiler ) 進行編譯，編譯後的檔案再拿去給執行環境執行，例子是 Java，JAVA 的 source code 副檔名為 .java，拿去 complie 後會變成副檔名為 .class 的檔案，再拿 .class 給 JAVA 的 runtime 也就是 JVM 進行執行</p><p>接著 IDE，如你所見在撰寫編譯式語言時，步驟相當繁瑣，不依靠任何整合工具的情況下，我要寫隻程式並執行要有下列步驟</p><p>1. 開啟 editor 敲 code</p><p>2. 敲完了打開 cmd 呼叫工具來編譯，javac xxx.java</p><p>3. 編譯後要執行 .class，java xxx</p><hr><p>Integrated Development Environment 整合開發環境 IDE</p><p>是為了提高我們的產值打造的工具，它會整合各種工具，例如讓上述的步驟透過一個按鈕就全部執行完成，就不用每一次寫扣都要手動執行那個三個步驟了。</p></details>
    <hr>
    <p> 10. 試著重建方案，看是否有報錯，如缺少套件/函式庫則右鍵更新下載。</p>
-   
+
    ![alt](/img/3.png)
-   
+
    <p> 11. 接著按下 debug 模式，利用 visual studio debug 虛擬 iis 來進行虛擬架站。</p>
    <p> 12. 此模式會產生一個虛擬 iis 伺服器並將此 api 網站架設於此，必須藉由 debug 模式才會啟動並配置一個虛擬站台 <a href="#"> http://localhostXXXX </a>，當 debug 模式 結束後會自動釋放資源，這時透過 url 就無法調用到此網頁軟體程式 ，後續想了解如何部屬至真正的 iis 再問我。</p>
-   
+
    ![alt](/img/4.png)
-   
+
    <p> 13. 接著程式會開啟我設定預設的 Swagger API 介紹畫面，此頁面只是方便測試 api，通常業界是用 PostMan 軟體。</p>
    <p> 14. 在了解如何串接資料之前要先了解，如何透過 url 向 api 框架要求 json 的 responce。</p>
    <p> 15. 首先看向 url 我們可以知道，目前 api 框架是架設於 http://localhost:XXXXX/ 之上，而在不看後端程式碼的況狀下我們可以透過 Swagger 頁面了解 API 路徑該如何調用 </p>
    <p> 16. 首先看到第三個 /api/Default/{All} 展開，可以看到 Try it out 點擊後 在描述 All 參數輸入任意值並 Execute，我們就可以看到 Request URL 與 Response body </p>
-   
+
    ![alt](/img/7.png)
-   
+
    <p> 17. 接著將 https://localhost:44317/api/Default/S 開新分頁貼上，http://localhost:XXXXX (主機) / api (檔案) / Default (方法) / S (參數) 這就是 .NET CORE API 框架 解析 URL 的邏輯，不一定每個框架都是此邏輯，實際上可以自定義。</p>
-   
+   <p> 18. 接著我們可以下斷點 看這段 https://localhost:44317/api/Default/S 實際上在軟體程式內做了什麼 </p>
+
+   ![alt](/import.gif)
+
+   <p> 19. 首先在一開始可以看到我們這時伺服器已經起始初始化過了，所以雖然在初始化的檔案內有設置斷點，但調用 method 的時候並不會進入該檔案。</p>
+   <p> 20. 而是直接進入控制台檔案內找 Get 方法 參數有 All 的接口，並反傳一個已經塞好資料的 homepage json 檔案。</p>
+<p> 21. 接著我們嘗試看看要怎麼樣才會調用到初始化網站的檔案，
+
    ![alt](/img/6.png)
-   
-   <p> 
+
+   <p>
    <p> 16. 將上列 json 的內容複製於以下 方便解釋此 json 資料結構</p>
    <p> 17. <a href="https://jsoneditoronline.org/#left=local.hedozu&right=local.denobi">https://jsoneditoronline.org/#left=local.hedozu&right=local.denobi</a></p>
    <p> 18. 複製於左按下 Copy 右邊則是此次 JSON 的整頁資料結構。</p>
@@ -146,9 +153,9 @@
        * 最外層必須由 {} 花括弧包住代表著這是 JSON 物件
        * KEY 必須用 雙引號 包覆
        * Value 可以是 "字串" 、 123 數字 、 null 、 {物件} 、 [陣列]，並用 , 逗點相隔
-   
+
    ![alt](/img/5.png)
-   
+
    <p> 20. 展開右側可以看到範例此次所有型別都有包含，如果格式有錯此網頁會自動提示，通常編輯器也會，可以試看看。</p>
    <p> 21. 接著介紹範例 JSON 設計的結構方便串接。</p>
        * 首先 Layout 內涵蓋 header 與 footer 與 shopcar 的資料
@@ -159,7 +166,7 @@
        * finalProduct 則是最底的商品資料
        * 目前資料筆數都依照畫面調出
        * 接著在實作 AJAX 前端資料索取方式前，我們先在利用
-       
+
 
 ## 前端工具( 物件, 模組 )
 
