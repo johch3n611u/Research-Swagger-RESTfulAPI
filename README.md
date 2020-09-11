@@ -118,7 +118,7 @@
    
    ![alt](/img/2.png)
    
-   <p> 9. 接著打開 DPERFUME-API 資料夾 用 visual studio 打開 附檔名為 .sln 的專案檔。
+   <p> 9. 接著打開 DPERFUME-API 資料夾 用 visual studio 打開 附檔名為 .sln 的專案檔， visual studio 與 vscode 差別就是一個是 IDE 一個是比較偏向 文字編輯器 <a href="https://www.google.com/search?q=IDE+%E5%B7%AE%E5%88%A5+%E6%96%87%E5%AD%97%E7%B7%A8%E8%BC%AF%E5%99%A8&rlz=1C1CHBF_zh-TWTW905TW905&oq=IDE+%E5%B7%AE%E5%88%A5+%E6%96%87%E5%AD%97%E7%B7%A8%E8%BC%AF%E5%99%A8&aqs=chrome..69i57.6434j0j1&sourceid=chrome&ie=UTF-8">> 可參考</a>。
    <p> 10. 試著重建方案，看是否有報錯。
    
    ![alt](/img/3.png)
