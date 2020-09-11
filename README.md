@@ -212,7 +212,7 @@
   ![alt](/img/jqajax.gif)
 
   <p> 42. 這邊可以看到我們已經從 http://localhostXXXX 成功取回 json 至 127.0.0.1</p>
-  <p> 43. <a href="https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Static/JQ.AJAX.html">https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Static/JQ.AJAX.html</p>
+  <p> 43. <a href="https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Static/JQ.AJAX.html">https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Static/JQ.AJAX.html</a></p>
   <p> 44. 接著可以先看懂以上程式碼，應該就能真的嘗試操作了。</p>
 
   ![alt](/img/jqajax2.gif)
