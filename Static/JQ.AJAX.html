@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div id="myDiv">
+        <h2>Let AJAX change this text</h2>
+    </div>
+    <button id="b01" type="button">Change Content</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $("#b01").click(function() {
+                htmlobj = $.ajax({
+                    url: "https://localhost:44317/api/Default/1",
+                    async: false
+                });
+                // htmlobj 為 jq AJAX 方法所回傳的物件，裡面包含許多內容
+                console.log("htmlobj", htmlobj);
+                // 例如 responseJSON 這包就是直接可以調用的 JSON Obj
+                console.log("parseobj", htmlobj.responseJSON);
+                var jsonobj = htmlobj.responseJSON;
+                // 調用方法如下:
+                // 因為沒有像後端或是 TypeScript 的強型別所以雖然能用 . . 來取用物件與陣列與筆數，
+                // 但並不會自動提示，容易出錯 ( 最好先定義接口類別，例如用物件需告完後塞入值 )
+                console.log("jsonobj.layout", jsonobj.layout)
+                console.log("jsonobj.layout.header", jsonobj.layout.header)
+                console.log("jsonobj.layout.header.title", jsonobj.layout.header.title)
+                console.log("jsonobj.layout.header.navbar.navNames.length", jsonobj.layout.header.navbar.navNames.length)
+                var length = jsonobj.layout.header.navbar.navNames.length;
+                console.log("jsonobj.layout.header.navbar.navNames[0]", jsonobj.layout.header.navbar.navNames[0])
+
+                // 如何利用控制流程渲染畫面
+                var TestText = "";
+                for (var i = 0; i < length; i++) {
+                    TestText += jsonobj.layout.header.navbar.navNames[i] + ","
+                    if (jsonobj.layout.header.navbar.navNames[i] == "Cart") {
+                        TestText += "<------這是車子"
+                    }
+                }
+                $("#myDiv").html(TestText);
+            });
+
+        });
+    </script>
+</body>
+
+</html>

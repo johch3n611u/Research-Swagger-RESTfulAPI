@@ -178,7 +178,7 @@
 <hr>
 <details>
 <summary>參考資料 - 可以優先閱讀再進行下面步驟</summary>
-
+<p></p>
 <p>前端工具( 物件, 模組 )</p>
 
 * XMLHttpRequest 原生 API
@@ -196,13 +196,30 @@
 </details>
 <hr>
 
-1. 看完了文章後
-2. 試著對著URL 調用 API 則可以得到 JSON 的 Response
+  <p> 33. 看完了文章後，我這邊進行小小的 demo 示範如何在前端透過 AJAX 取得資料並透過 控制流程 渲染畫面，而你就要舉一反三了，記得有問題就問。</p>
+  <p> 34. 我示範簡單利用 JQ AJAX 的，建議你三種方法都嘗試看看。</p>
+  <p> 35. 記住此時你的 API 專案必須在 debug 虛擬 iis 上，或是真的部屬在伺服器上，不然就無法藉由 url 調用到資料。</p>
+  <p> 36. JQ AJAX 方法可以設定當 API 回傳 400 或 500 狀態碼時會做什麼。可以想一下利用此方法可以做些什麼事 e.g. 跳轉錯誤頁面而不是死機。</p>
+  <p> 37. 正常狀況下，串接 API 很容易遇到這種錯誤 Access-Control-Allow-Origin ，這是因為後端為防範 inject 所以不允許跨站要求資料，可以看到因為我們靜態頁面是用 127.0.0.1:8080 這個主機起的，這個是 liveServer 的小型伺服器，相對 localhost:XXXXX 其實就是兩個網域了。</p>
 
+  ![alt](/img/8.png)
 
-> 以下為API框架後端程式 實作，不用特別看
+  <p> 38. 解決方法有兩種 1. 將靜態頁面般至同後端網域的主機上 2. 開啟後端網域的限制，3. 或是白名單。 我們這裡先使用第二種 </p>
+  <p> 39. 由我改後端即可 <a href="https://blog.johnwu.cc/article/ironman-day26-asp-net-core-cross-origin-requests.html">https://blog.johnwu.cc/article/ironman-day26-asp-net-core-cross-origin-requests.html</a></p>
+  <p> 40. 當然你看到這裡時候端版控應該也是改完的版本了。我們接續</p>
+  <p> 41. <a href="https://www.w3school.com.cn/jquery/ajax_ajax.asp">https://www.w3school.com.cn/jquery/ajax_ajax.asp</a>
 
----
+  ![alt](/img/jqajax.gif)
+
+<hr>
+
+<hr>
+
+> 以下為API框架後端程式 實作步驟，不用特別看
+
+<hr>
+
+<hr>
 
 ![alt](/TryIt.gif)
 
