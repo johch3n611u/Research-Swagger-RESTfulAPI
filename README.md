@@ -141,23 +141,29 @@
 
    <p> 19. 首先在一開始可以看到我們這時伺服器已經起始初始化過了，所以雖然在初始化的檔案內有設置斷點，但調用 method 的時候並不會進入該檔案。</p>
    <p> 20. 而是直接進入控制台檔案內找 Get 方法 參數有 All 的接口，並反傳一個已經塞好資料的 homepage json 檔案。</p>
-<p> 21. 接著我們嘗試看看要怎麼樣才會調用到初始化網站的檔案，
+   <p> 21. 接著我們嘗試看看要怎麼樣才會調用到初始化網站的檔案，答案是重啟整個 網站，所以我們可以知道 初始化只會在啟動網站時執行一次 </p>
+   <p> 22. 可以看到跟著左邊的初始化，右邊的畫面也跟著卡著斷點 或是成功渲染畫面。</p>
+   <p> 22. 接著我們嘗試調用第一種多參數的查詢方法，我們可以看到此時進入了另外一個帶有三個參數的 methon 前兩個有而最後一個並沒有參數，並跟著邏輯取回相對應的 json 資料。</p>
+   <p> 23. 此時我們回到 Swagger 頁面 可以看到 Request URL = https://localhost:44317/api/Default?PageName=Homepage&PartName=Layout </p>
+   <p> 24. 這個上述 https://localhost:44317/api/Default/S 有什麼不同呢 ? 因為這是我設計過的接口，當無參數名稱時自動將第三格判定為 All 的參數。 主機位置/程式/all參數</p>
+   <p> 25. 整個後端的簡單調用邏輯大約是這樣，有不懂的問盡量問才會懂</p>
 
    ![alt](/img/6.png)
 
-   <p>
-   <p> 16. 將上列 json 的內容複製於以下 方便解釋此 json 資料結構</p>
-   <p> 17. <a href="https://jsoneditoronline.org/#left=local.hedozu&right=local.denobi">https://jsoneditoronline.org/#left=local.hedozu&right=local.denobi</a></p>
-   <p> 18. 複製於左按下 Copy 右邊則是此次 JSON 的整頁資料結構。</p>
-   <p> 19. JSON 是由 KEY VALUE 所組成的格式，有一些制式化的規定如以下。</p>
+   <p> 26. 接著將上列調用到的 json 的內容複製於以下 方便解釋此 json 資料結構</p>
+   <p> 27. <a href="https://jsoneditoronline.org/#left=local.hedozu&right=local.denobi">https://jsoneditoronline.org/#left=local.hedozu&right=local.denobi</a></p>
+   <p> 28. 複製於左按下 Copy 右邊則是此次 JSON 的整頁資料結構。</p>
+   <p> 29. JSON 是由 KEY VALUE 所組成的資料格式，有一些制式化的規定如以下。</p>
+
        * 最外層必須由 {} 花括弧包住代表著這是 JSON 物件
        * KEY 必須用 雙引號 包覆
        * Value 可以是 "字串" 、 123 數字 、 null 、 {物件} 、 [陣列]，並用 , 逗點相隔
 
    ![alt](/img/5.png)
 
-   <p> 20. 展開右側可以看到範例此次所有型別都有包含，如果格式有錯此網頁會自動提示，通常編輯器也會，可以試看看。</p>
-   <p> 21. 接著介紹範例 JSON 設計的結構方便串接。</p>
+   <p> 30. 展開右側可以看到範例此次所有型別都有包含，如果格式有錯此網頁會自動提示，通常編輯器也會，可以試看看。</p>
+   <p> 31. 接著介紹範例 JSON 設計的結構方便串接。</p>
+
        * 首先 Layout 內涵蓋 header 與 footer 與 shopcar 的資料
        * 然後 banner 則是看版圖的資料
        * columnProducts 則是橫排商品資料
@@ -167,8 +173,13 @@
        * 目前資料筆數都依照畫面調出
        * 接著在實作 AJAX 前端資料索取方式前，我們先在利用
 
+   <p> 32. 接著就要進入最精彩的環節了，在前端靜態頁面利用 js 調用 AJAX 技術，在後端吃到反傳值。</p>
 
-## 前端工具( 物件, 模組 )
+<hr>
+<details>
+<summary>參考資料 - 可以優先閱讀再進行下面步驟</summary>
+
+<p>前端工具( 物件, 模組 )</p>
 
 * XMLHttpRequest 原生 API
 * jQuery.ajax() 第三方庫
@@ -181,6 +192,9 @@
 <https://developer.mozilla.org/zh-TW/docs/Web/API>
 
 <https://www.itread01.com/content/1564589404.html>
+
+</details>
+<hr>
 
 1. 看完了文章後
 2. 試著對著URL 調用 API 則可以得到 JSON 的 Response
