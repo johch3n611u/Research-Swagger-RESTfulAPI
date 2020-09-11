@@ -104,17 +104,17 @@
      </details>
 
 3. 依照前三學習到的基礎常識，並依照下列步驟，串接API並推版至 DBUG 專案。
-   <p> 1. 首先將此專案 clone 至本地 (目的是部屬 API框架後端程式)。
+   <p> 1. 首先將此專案 clone 至本地 ( 目的是部屬 API框架 後端程式，用來利用 debug 模式完成虛擬架站，產生 json 資料供前端靜態檔案做 AJAX 串接 )。
    <p> 2. 新建一個資料夾用 vscode 打開資料夾 ctrl + p ， > git: clone 。
-   <p> 3. 克隆好後打開資料夾會看到， DPERFUME-API 資料夾是用 .net core 框架 寫的 api 專案。
+   <p> 3. 克隆好後打開資料夾會看到， DPERFUME-API 資料夾 是用 .net core 框架 寫的 api 專案。
    <p> 4. 接著這邊先暫時擱置備用，先處理 DBUG 版控。
-   <p> 5. 首先登入github DBUG 點擊 NEW 並新增此次 API 練習用 Public 專案，檔名建議需能辨識出此次練習技術。
+   <p> 5. 首先登入 github DBUG 點擊 NEW 並新增此次 API 練習用 Public 專案，檔名建議需能辨識出此次練習技術 e.g. Side-Project-AJAX-API-Cascade。
    
    ![alt](/img/1.png)
    
-   <p> 6. 照著第二步驟將此專案挑個資料夾版控，並建立 README.md 檔案，紀錄所作步驟與遇到的問題與解法。
-   <p> 7. 接著將API專案 DPERFUME-API 資料夾 複製剪貼至此。
-   <p> 8. 並將此次要串接的首頁 css 與 html 搬至此新建一資料夾放置靜態網頁，大致上的畫面如下。
+   <p> 6. 照著第二步驟將此 專案 挑個 資料夾版控，並建立 README.md 檔案，紀錄所作步驟與遇到的問題與解法。
+   <p> 7. 接著將 API專案 DPERFUME-API 資料夾 複製剪貼至此。
+   <p> 8. 並將此次要串接的靜態檔案 ( html / css / js ) 搬至此新建資料夾 放置靜態檔案，大致上的畫面如下。
    
    ![alt](/img/2.png)
    
@@ -124,7 +124,7 @@
    ![alt](/img/3.png)
    
    <p> 11. 接著按下 debug 模式，利用 visual studio debug 虛擬 iis 來進行虛擬架站。
-   <p> 12. 此模式會產生一個虛擬 iis 伺服器並將此 api 網站架設於此，必須藉由 debug 模式才會啟動，後續想了解如何部屬至真正的 iis 再問我。
+   <p> 12. 此模式會產生一個虛擬 iis 伺服器並將此 api 網站架設於此，必須藉由 debug 模式才會啟動並配置一個虛擬站台 <a href="#"> http://localhostXXXX </a>，當 debug 模式 結束後會自動釋放資源，這時透過 url 就無法調用到此網頁軟體程式 ，後續想了解如何部屬至真正的 iis 再問我。
    
    ![alt](/img/4.png)
    
