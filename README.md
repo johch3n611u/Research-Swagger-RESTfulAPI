@@ -8,7 +8,7 @@
 
 ### 利用下列資料理解此圖流程
 
-![alt](/網頁生命週期.png)
+![alt](/img/網頁生命週期.png)
 
 1. 理解下列名詞知道即可。
 
@@ -137,7 +137,7 @@
    <p> 17. 接著將 https://localhost:44317/api/Default/S 開新分頁貼上，http://localhost:XXXXX (主機) / api (檔案) / Default (方法) / S (參數) 這就是 .NET CORE API 框架 解析 URL 的邏輯，不一定每個框架都是此邏輯，實際上可以自定義。</p>
    <p> 18. 接著我們可以下斷點 看這段 https://localhost:44317/api/Default/S 實際上在軟體程式內做了什麼 </p>
 
-   ![alt](/import.gif)
+   ![alt](/img/import.gif)
 
    <p> 19. 首先在一開始可以看到我們這時伺服器已經起始初始化過了，所以雖然在初始化的檔案內有設置斷點，但調用 method 的時候並不會進入該檔案。</p>
    <p> 20. 而是直接進入控制台檔案內找 Get 方法 參數有 All 的接口，並反傳一個已經塞好資料的 homepage json 檔案。</p>
@@ -229,7 +229,7 @@
 
 <hr>
 
-![alt](/TryIt.gif)
+![alt](/img/TryIt.gif)
 
 ## [RESTfulAPI 簡介 by https://openhome.cc](https://openhome.cc/Gossip/Spring/HATEOAS.html)
 
