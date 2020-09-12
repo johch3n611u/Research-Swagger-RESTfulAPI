@@ -9,45 +9,86 @@
 </head>
 
 <body>
+    <!-- 1. click 觸發 ajax 從後端調用 json 來渲染  -->
     <div id="myDiv">
-        <h2>Let AJAX change this text</h2>
+        <h2>click 觸發 ajax 從後端調用 json 來渲染</h2>
     </div>
-    <button id="b01" type="button">Change Content</button>
+    <button id="b01" type="button">click 觸發 ajax</button>
+    <!--  1.click 觸發 ajax 從後端調用 json 來渲染 -->
+
+    <hr>
+
+    <!-- 2. document ready 觸發 local . json -->
+    <h2> document ready 觸發 local . json</h2>
+    <div id="youDiv">
+        <h2> document ready 觸發 local . json</h2>
+    </div>
+    <!-- 2. document ready 觸發 local . json  -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js"></script>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
 
-            $("#b01").click(function() {
+            // 1. click 觸發 ajax 從後端調用 json 來渲染
+            $("#b01").click(function () {
                 htmlobj = $.ajax({
                     url: "https://localhost:44317/api/Default/1",
                     async: false
                 });
+
                 // htmlobj 為 jq AJAX 方法所回傳的物件，裡面包含許多內容
                 console.log("htmlobj", htmlobj);
-                // 例如 responseJSON 這包就是直接可以調用的 JSON Obj
-                console.log("parseobj", htmlobj.responseJSON);
-                var jsonobj = htmlobj.responseJSON;
-                // 調用方法如下:
-                // 因為沒有像後端或是 TypeScript 的強型別所以雖然能用 . . 來取用物件與陣列與筆數，
-                // 但並不會自動提示，容易出錯 ( 最好先定義接口類別，例如用物件需告完後塞入值 )
-                console.log("jsonobj.layout", jsonobj.layout)
-                console.log("jsonobj.layout.header", jsonobj.layout.header)
-                console.log("jsonobj.layout.header.title", jsonobj.layout.header.title)
-                console.log("jsonobj.layout.header.navbar.navNames.length", jsonobj.layout.header.navbar.navNames.length)
-                var length = jsonobj.layout.header.navbar.navNames.length;
-                console.log("jsonobj.layout.header.navbar.navNames[0]", jsonobj.layout.header.navbar.navNames[0])
+                if (htmlobj != undefined) {
+                    // 例如 responseJSON 這包就是直接可以調用的 JSON Obj
+                    console.log("parseobj", htmlobj.responseJSON);
+                    if (htmlobj.responseJSON != undefined) {
+                        var jsonobj = htmlobj.responseJSON;
 
-                // 如何利用控制流程渲染畫面
-                var TestText = "";
-                for (var i = 0; i < length; i++) {
-                    TestText += jsonobj.layout.header.navbar.navNames[i] + ","
-                    if (jsonobj.layout.header.navbar.navNames[i] == "Cart") {
-                        TestText += "<------這是車子"
+                        // 調用方法如下:
+                        // 因為沒有像後端或是 TypeScript 的強型別所以雖然能用 . . 來取用物件與陣列與筆數，
+                        // 但並不會自動提示，容易出錯 ( 最好先定義接口類別，例如用物件需告完後塞入值 )
+                        console.log("jsonobj.layout", jsonobj.layout)
+                        console.log("jsonobj.layout.header", jsonobj.layout.header)
+                        console.log("jsonobj.layout.header.title", jsonobj.layout.header.title)
+                        console.log("jsonobj.layout.header.navbar.navNames.length", jsonobj.layout.header.navbar.navNames.length)
+                        var length = jsonobj.layout.header.navbar.navNames.length;
+                        console.log("jsonobj.layout.header.navbar.navNames[0]", jsonobj.layout.header.navbar.navNames[0])
+
+                        // 如何利用控制流程渲染畫面
+                        var TestText = "";
+                        for (var i = 0; i < length; i++) {
+                            TestText += jsonobj.layout.header.navbar.navNames[i] + ","
+                            if (jsonobj.layout.header.navbar.navNames[i] == "Cart") {
+                                TestText += "<------這是車子"
+                            }
+                        }
+                        $("#myDiv").html(TestText);
+                    } else {
+                        alert('請確定調用的伺服器有正確開啟，或確認當下網路狀況。')
                     }
                 }
-                $("#myDiv").html(TestText);
             });
+            // 1. click 觸發 ajax 從後端調用 json 來渲染
 
+
+            // 2. document ready 觸發 local . json
+            localobj = $.ajax({
+                url: "All.json",
+                async: false
+            });
+            console.log("localobj", localobj)
+            $("#youDiv").html(localobj.responseText);
+            // 2. document ready 觸發 local . json
+
+            // 3. 利用 select value 值 調用 jq ajax post 對後端 get 查詢接口  做特定資料調用 e.g. 只要 shopcar 資料
+            // 3.1 利用 local.all.json 資料 渲染 select 打造動態的 select
+            // 3.1 利用 local.all.json 資料 渲染 select 打造動態的 select
+            // 3. 利用 select value 值 調用 jq ajax post 對後端 get 查詢接口  做特定資料調用 e.g. 只要 shopcar 資料
+
+            // 4. 利用 form 調用 post 不使用 jq ajax 直接 request 後端坐驗證查詢
+            // 4. 利用 form 調用 post 不使用 jq ajax 直接 request 後端坐驗證查詢
+
+            // 把以上方法寫成 method 或 function 即可共用，類似抽出來不用寫重複的方法
         });
     </script>
 </body>

@@ -6225,23 +6225,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\liu\\.nuget\\packages\\": {},
+    "C:\\Users\\rognp\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desk\\Side-Project-Try-Swagger-RESTfulAPI\\DPERFUME-API\\DPERFUME-API\\DPERFUME-API.csproj",
+      "projectUniqueName": "C:\\Users\\rognp\\Desktop\\delete\\Side-Project-Try-Swagger-RESTfulAPI\\DPERFUME-API\\DPERFUME-API\\DPERFUME-API.csproj",
       "projectName": "DPERFUME-API",
-      "projectPath": "D:\\Desk\\Side-Project-Try-Swagger-RESTfulAPI\\DPERFUME-API\\DPERFUME-API\\DPERFUME-API.csproj",
-      "packagesPath": "C:\\Users\\liu\\.nuget\\packages\\",
-      "outputPath": "D:\\Desk\\Side-Project-Try-Swagger-RESTfulAPI\\DPERFUME-API\\DPERFUME-API\\obj\\",
+      "projectPath": "C:\\Users\\rognp\\Desktop\\delete\\Side-Project-Try-Swagger-RESTfulAPI\\DPERFUME-API\\DPERFUME-API\\DPERFUME-API.csproj",
+      "packagesPath": "C:\\Users\\rognp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rognp\\Desktop\\delete\\Side-Project-Try-Swagger-RESTfulAPI\\DPERFUME-API\\DPERFUME-API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\liu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rognp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6249,6 +6249,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\rognp\\Desktop\\旺宏_sourcecode\\MxicAppSample\\MxicNugetPackages": {},
+        "http://packagesource": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6296,7 +6298,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
