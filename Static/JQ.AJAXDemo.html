@@ -57,8 +57,8 @@
                         // 如何利用控制流程渲染畫面
                         var TestText = "";
                         for (var i = 0; i < length; i++) {
-                            TestText += jsonobj.layout.header.navbar.navNames[i] + ","
-                            if (jsonobj.layout.header.navbar.navNames[i] == "Cart") {
+                            TestText += "<p style='color:red'>" + jsonobj.layout.header.navbar.navNames[i] + "</p>"
+                            if (jsonobj.layout.header.navbar.navNames[i] == "Wishlist") {
                                 TestText += "<------這是車子"
                             }
                         }
@@ -76,8 +76,9 @@
                 url: "All.json",
                 async: false
             });
-            console.log("localobj", localobj)
-            $("#youDiv").html(localobj.responseText);
+            console.log("localobj", localobj.responseJSON.banner)
+            var abc = JSON.stringify(localobj.responseJSON.banner);
+            $("#youDiv").html(abc);
             // 2. document ready 觸發 local . json
 
             // 3. 利用 select value 值 調用 jq ajax post 對後端 get 查詢接口  做特定資料調用 e.g. 只要 shopcar 資料
