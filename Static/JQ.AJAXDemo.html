@@ -43,11 +43,12 @@
     <h2> 4. 利用 form 調用 post 不使用 jq ajax 直接 request 後端坐驗證查詢</h2>
     <form action="https://localhost:44317/api/Default" method="post" enctype="application/json" accept="text/plain">
         <label for="Email">Email : </label>
-        <input name="Email" id="Email" value="Carl@gmail.com"><br>
+        <input name="email" id="Email" value="Carl@gmail.com"><br>
         <label for="Password">Password : </label>
-        <input name="Password" id="Password" placeholder='1234'><br>
+        <input name="password" id="Password" placeholder='1234'><br>
         <button type='submit'>驗證</button>
     </form>
+    <!-- https://stackoverflow.com/questions/19446544/post-request-to-include-content-type-and-json -->
     <!-- 4. 利用 form 調用 post 不使用 jq ajax 直接 request 後端坐驗證查詢 -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js"></script>
