@@ -9,18 +9,17 @@
                     "Wishlist",
                     "Cart"
                 ],
-                "shopBag": [
-                    {
+                "shopBag": [{
                         "email": "Carl@gmail.com",
                         "productNames": "Rose"
                     },
                     {
                         "email": "Carl@gmail.com",
-                        "productNames": "Rose"
+                        "productNames": "Apple"
                     },
                     {
                         "email": "Carl@gmail.com",
-                        "productNames": "Rose"
+                        "productNames": "Ocean"
                     }
                 ]
             }
@@ -42,8 +41,7 @@
         "title": "Perfume your day",
         "info": "A perfume is like a piece of clothing, a message, a way of presenting oneself a costume that according to the person who wears it."
     },
-    "columnProducts": [
-        {
+    "columnProducts": [{
             "id": 1,
             "title": "Gabrielle CHANEL",
             "info": "全新嗅覺體驗，花香四溢、明亮馥郁。結合茉莉、依蘭依蘭、橙花和最迷人的格拉斯晚香玉之花香，呈現出夢幻花香氣息。 極具女性特質的香奈兒嘉柏麗香水，專為光芒四射的她而生。",
@@ -62,8 +60,7 @@
             "link": "03.html"
         }
     ],
-    "steps": [
-        {
+    "steps": [{
             "id": 1,
             "title": "Levels of Preventive Maintenance Compliance",
             "info": "The core idea of preventative maintenance is the performance of proactive actions against unscheduled downtime in order to identify potential defects before they evolve into something more severe."
@@ -79,8 +76,7 @@
             "info": "Calculating the critical percentage of planned maintenance will help you prioritize the most important operations that should be performed immediately."
         }
     ],
-    "rowProducts": [
-        {
+    "rowProducts": [{
             "id": 1,
             "title": "Poppy & Barley",
             "info": "Jo Malone",
