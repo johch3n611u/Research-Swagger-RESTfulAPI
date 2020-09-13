@@ -151,7 +151,7 @@
    ![alt](/img/6.png)
 
    <p> 26. 接著將上列調用到的 json 的內容複製於以下 方便解釋此 json 資料結構</p>
-   <p> 27. <a href="https://jsoneditoronline.org/#left=local.hedozu&right=local.denobi">https://jsoneditoronline.org/#left=local.hedozu&right=local.denobi</a></p>
+   <p> 27. <a href="https://jsoneditoronline.org">https://jsoneditoronline.org</a></p>
    <p> 28. 複製於左按下 Copy 右邊則是此次 JSON 的整頁資料結構。</p>
    <p> 29. JSON 是由 KEY VALUE 所組成的資料格式，有一些制式化的規定如以下。</p>
 

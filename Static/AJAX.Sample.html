@@ -30,7 +30,7 @@
             </div>
             <div class="collapse navbar-collapse flex-grow-0 justify-content" id="navbarSupportedContent">
                 <ul id="testNavbar" class="navbar-nav mr-auto">
-                    <li class="nav-item  mr-md-2 order-md-1">
+                    <!-- <li class="nav-item  mr-md-2 order-md-1">
                         <a class="nav-link text-center" href="02.html"><i class="fas fa-tshirt mr-1"></i>Product </a>
                     </li>
                     <li class="nav-item mr-md-2 order-md-3">
@@ -56,7 +56,7 @@
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">前往付款</a>
                         </div>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </nav>
@@ -89,7 +89,6 @@
                 if (navNames[i] == "Cart") {
                     // 7. 然後 Cart 這層 li 是最異於其餘 li 的所以我們必須要藉由 if else 控制邏輯獨立出來作業。
 
-
                     var CartItems = ""; // 真的後端購物車資料
 
                     var CartItemsLength = localobj.responseJSON.layout.header.navbar.shopBag.length;
@@ -110,10 +109,6 @@
 
                     navbarliTag = "<li class='nav-item dropdown mr-md-2 d-none d-md-flex order-md-4'><a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'><i class='fas fa-shopping-cart mr-1' ></i > Cart(" + CartItemsLength + ")</a ><div class='dropdown-menu' aria-labelledby='navbarDropdown'>" + CartItems + "</div></li>";
                     navbarli += navbarliTag;
-
-
-
-
 
                     // 8. 我們可以藉由 log 觀察迴圈變化
                     console.log("navbarliTag-" + i, navbarliTag)
