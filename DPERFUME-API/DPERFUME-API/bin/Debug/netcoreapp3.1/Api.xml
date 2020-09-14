@@ -13,7 +13,7 @@
             <param name="id">識別值</param>
             <returns>頁面資料</returns>
         </member>
-        <member name="M:DPERFUME_API.Controllers.DefaultController.Post(DPERFUME_API.Controllers.DefaultController.Authentication)">
+        <member name="M:DPERFUME_API.Controllers.DefaultController.Post(System.String,System.String)">
             <summary>
             帳號密碼登入 測試帳號密碼為 Carl@gmail.com/1234
             </summary>
