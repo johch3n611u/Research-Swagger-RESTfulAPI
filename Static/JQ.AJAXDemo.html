@@ -41,35 +41,21 @@
 
     <!-- 4. 利用 form 調用 post 不使用 jq ajax 直接 request 後端坐驗證查詢 -->
     <h2> 4. 利用 form 調用 post 不使用 jq ajax 直接 request 後端坐驗證查詢</h2>
-    <form id="myform" action="https://localhost:44317/api/Default" method="post" enctype="application/json" accept="text/plain">
+    <form id="myform" action="https://localhost:44317/api/Default" method="post">
         <label for="Email">Email : </label>
-        <input name="email" id="Email" value="Carl@gmail.com"><br>
+        <input name="Email" id="Email" value="Carl@gmail.com"><br>
         <label for="Password">Password : </label>
-        <input name="password" id="Password" placeholder='1234'><br>
-        <button id="myformbutton" type='submit'>驗證</button>
-        <input name="Authentication" id="Authentication" readonly placeholder="name=Authentication">
-        <p>
-            一般會用 display:none; 來藏這種必須要傳到後端，但又不給輸入的欄位
-        </p>
-        <p>
-            這裡的狀況：主要不是前端問題，而是涉及到後端取封包的邏輯，每個框架不太一樣需要依據接口格式，所以 form 就必須符合格式，否則根本找不到相對應的接口。你後端要求 {"email":"abcx","password":"qweqwe"} 那就應該組成這樣一包 json，form 不會自動幫你組。 除非接口寫成 methon ( string email, string password )
-        </p>
-        <p>
-            https://stackoverflow.com/questions/19446544/post-request-to-include-content-type-and-json
-        </p>
-        <p>
-            變成必須用非正規方式把資料組成 JSON 格式傳入。 // 此處較不像一般的方式，通常在 form 傳出前攔截是為了前端驗證資料格式 e.g. email / length / 非法字元 ...，而不是轉 JSON 格式
-        </p>
+        <input name="Password" id="Password" placeholder='1234'><br>
+        <button type='submit'>驗證</button>
     </form>
-    <!-- https://stackoverflow.com/questions/19446544/post-request-to-include-content-type-and-json -->
     <!-- 4. 利用 form 調用 post 不使用 jq ajax 直接 request 後端坐驗證查詢 -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js"></script>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
 
             // 1. click 觸發 ajax 從後端調用 json 來渲染
-            $("#b01").click(function() {
+            $("#b01").click(function () {
                 htmlobj = $.ajax({
                     url: "https://localhost:44317/api/Default/1",
                     async: false
@@ -142,24 +128,7 @@
         });
 
         // 4. 利用 form 調用 post 不使用 jq ajax 直接 request 後端坐驗證查詢
-
-        // 這裡的狀況：主要不是前端問題，而是涉及到後端取封包的邏輯，每個框架不太一樣需要依據接口格式，所以 form 就必須符合格式，否則根本找不到相對應的接口。
-        // https://stackoverflow.com/questions/19446544/post-request-to-include-content-type-and-json
-        // 變成必須用非正規方式把資料組成 JSON 格式傳入。
-        // 此處較不像一般的方式，通常在 form 傳出前攔截是為了前端驗證資料格式 e.g. email / length / 非法字元 ...，而不是轉 JSON 格式
-        // https://www.w3school.com.cn/jquery/event_submit.asp
-
-        // $('#myform').submit() // 等於直述句會直接觸法此 form submit
-
-        $('#myform').submit(function(e) {
-            var result = mixform();
-            return result;
-        });
-
-        function mixform() {
-            return confirm('確定要進行後端驗證?');
-        }
-
+        // 不需要 js 依靠純 html form 即可
         // 4. 利用 form 調用 post 不使用 jq ajax 直接 request 後端坐驗證查詢
 
         // 把以上方法寫成 method 或 function 即可共用，類似抽出來不用寫重複的方法
