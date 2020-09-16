@@ -4,13 +4,19 @@
 
 幫老弟寫 API ，好練習串 API 接口與 ajax SSR 並補充網站知識，順便嘗試 RESTfulAPI 的 Lv 1 - 3，與 Swagger 套件。
 
-## 概括網站系統設計
+## 大綱
+
+1. [概括網站系統設計與相關名詞簡介](#A)
+2. 實作一個 前端靜態AJAX 與 API後端 網站
+3. [Swagger-RESTfulAPI 實作](https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Swagger.RestfulAPI.md)
+
+## 概括網站系統設計 <a id="A"></a>
 
 ### 利用下列資料理解此圖流程
 
 ![alt](/img/網頁生命週期.png)
 
-1. 理解下列名詞知道即可。
+1. KeyWord。
 
 
      * `域名系統` DNS / `網路位址(RealName)` IP / `域名(NickName)` DomainName / `通訊埠` Port [> 可參考](https://medium.com/@miahsuwork/%E7%AC%AC%E5%85%AD%E9%80%B1-%E7%B6%B2%E8%B7%AF%E5%9F%BA%E7%A4%8E-http-request-response-7d7e0cb88ed8)
