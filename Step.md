@@ -6,6 +6,12 @@
 2. [原理解析 13-31](#B)
 3. [Demo實作講解 32-.](#C)
 
+目的是為了讓你體驗一個網站從無到有從前端到後端甚至到資料庫與架站，
+
+當體驗過一個網站後，後續就有機會有第二個第三個甚至第四個甚至是系統...
+
+其實"系統"就是將各種生活中的流程與網站串接做成 SaaS 之類的，或像是內網單機程式的感覺。
+
 <br>
 
 <br id="A">
@@ -130,6 +136,10 @@
 <hr>
 
   <p> 33. 看完了文章後，我這邊進行小小的 demo 示範如何在前端透過 AJAX 取得資料並透過 控制流程 渲染畫面，而你就要舉一反三了，記得有問題就問。</p>
+
+* [AJAX.Sample.html 包含首頁的 head 渲染](https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Static/AJAX.Sample.html)
+* [JQ.AJAXDemo.html 包含四種傳遞資料方式](https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Static/JQ.AJAXDemo.html)
+
   <p> 34. 我示範簡單利用 JQ AJAX 的，建議你三種方法都嘗試看看。</p>
   <p> 35. 記住此時你的 API 專案必須在 debug 虛擬 iis 上，或是真的部屬在伺服器上，不然就無法藉由 url 調用到資料。</p>
   <p> 36. JQ AJAX 方法可以設定當 API 回傳 400 或 500 狀態碼時會做什麼。可以想一下利用此方法可以做些什麼事 e.g. 跳轉錯誤頁面而不是死機。</p>
