@@ -10,7 +10,13 @@
 2. [實作步驟 - 前端靜態AJAX 與 API後端 網站](https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Step.md)
 3. [Swagger-RESTfulAPI 實作](https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Swagger.RestfulAPI.md)
 
-## 概括網站系統設計 <a id="A"></a>
+<hr>
+
+<hr>
+
+<hr>
+
+## 概括網站系統設計與相關名詞簡介 <a id="A"></a>
 
 ### 利用下列資料理解此圖流程
 
