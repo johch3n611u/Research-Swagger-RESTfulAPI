@@ -1,6 +1,6 @@
 # 實作步驟 - 前端靜態AJAX 與 API後端 網站
 
-## 大綱
+## 大綱 <a id="TOP"></a>
 
 1. [環境架設 1-12](#A)
 2. [原理解析 13-31](#B)
@@ -44,13 +44,15 @@
 
    ![alt](/img/4.png)
 
-<br>
+<br id="B">
+
+[BACK ↑ TOP](#TOP)
 
 <hr>
 
 <br>
 
-   <p id="B"> 13. 接著程式會開啟我設定預設的 Swagger API 介紹畫面，此頁面只是方便測試 api，通常業界是用 PostMan 軟體。</p>
+   <p> 13. 接著程式會開啟我設定預設的 Swagger API 介紹畫面，此頁面只是方便測試 api，通常業界是用 PostMan 軟體。</p>
    <p> 14. 在了解如何串接資料之前要先了解，如何透過 url 向 api 框架要求 json 的 responce。</p>
    <p> 15. 首先看向 url 我們可以知道，目前 api 框架是架設於 http://localhost:XXXXX/ 之上，而在不看後端程式碼的況狀下我們可以透過 Swagger 頁面了解 API 路徑該如何調用 </p>
    <p> 16. 首先看到第三個 /api/Default/{All} 展開，可以看到 Try it out 點擊後 在描述 All 參數輸入任意值並 Execute，我們就可以看到 Request URL 與 Response body </p>
@@ -96,13 +98,15 @@
        * 目前資料筆數都依照畫面調出
        * 接著在實作 AJAX 前端資料索取方式前，我們先在利用
 
-<br>
+<br id="C">
+
+[BACK ↑ TOP](#TOP)
 
 <hr>
 
 <br>
 
-   <p id="C"> 32. 接著就要進入最精彩的環節了，在前端靜態頁面利用 js 調用 AJAX 技術，在後端吃到反傳值。</p>
+   <p> 32. 接著就要進入最精彩的環節了，在前端靜態頁面利用 js 調用 AJAX 技術，在後端吃到反傳值。</p>
 
 <hr>
 <details>
