@@ -64,8 +64,10 @@
    ![alt](/img/7.png)
 
    <p> 17. 接著讓我們來檢視一下 URL https://localhost:44317/api/Default/S </p>
+
            * http://localhost:XXXXX (主機) / api (檔案) / Default (方法) / S (參數)
            * 這就是 .NET CORE API 框架 解析 URL 的邏輯，不一定每個框架都是此邏輯，實際上可以自定義。
+
    <p> 18. 接著我們可以在後端程式碼內下斷點 看這段 https://localhost:44317/api/Default/S 實際上在軟體程式內做了什麼。下完斷點後將此串 URL 複製貼上於網址列對此主機進行訪問。 </p>
 
    ![alt](/img/import.gif)
