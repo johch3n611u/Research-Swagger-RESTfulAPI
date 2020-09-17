@@ -63,13 +63,14 @@
 
    ![alt](/img/7.png)
 
-   <p> 17. 接著將 https://localhost:44317/api/Default/S 開新分頁貼上，並讓我們來檢視一下 URL</p>
-           * http://localhost:XXXXX (主機) / api (檔案) / Default (方法) / S (參數) 這就是 .NET CORE API 框架 解析 URL 的邏輯，不一定每個框架都是此邏輯，實際上可以自定義。
-   <p> 18. 接著我們可以下斷點 看這段 https://localhost:44317/api/Default/S 實際上在軟體程式內做了什麼 </p>
+   <p> 17. 接著讓我們來檢視一下 URL https://localhost:44317/api/Default/S </p>
+           * http://localhost:XXXXX (主機) / api (檔案) / Default (方法) / S (參數)
+           * 這就是 .NET CORE API 框架 解析 URL 的邏輯，不一定每個框架都是此邏輯，實際上可以自定義。
+   <p> 18. 接著我們可以在後端程式碼內下斷點 看這段 https://localhost:44317/api/Default/S 實際上在軟體程式內做了什麼。下完斷點後將此串 URL 複製貼上於網址列對此主機進行訪問。 </p>
 
    ![alt](/img/import.gif)
 
-   <p> 19. 首先在一開始可以看到我們這時伺服器已經起始初始化過了，所以雖然在初始化的檔案內有設置斷點，但調用 method 的時候並不會進入該檔案。</p>
+   <p> 19. 首先在一開始可以看到我們這時伺服器已經起始初始化過了，所以雖然在初始化的檔案 Program.cs & Startup.cs 內有設置斷點，但調用 method 的時候並不會進入該檔案。</p>
    <p> 20. 而是直接進入控制台檔案內找 Get 方法 參數有 All 的接口，並反傳一個已經塞好資料的 homepage json 檔案。</p>
    <p> 21. 接著我們嘗試看看要怎麼樣才會調用到初始化網站的檔案，答案是重啟整個 網站，所以我們可以知道 初始化只會在啟動網站時執行一次 </p>
    <p> 22. 可以看到跟著左邊的初始化，右邊的畫面也跟著卡著斷點 或是成功渲染畫面。</p>
