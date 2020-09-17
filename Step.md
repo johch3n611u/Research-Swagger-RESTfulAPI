@@ -157,10 +157,17 @@
   ![alt](/img/jqajax.gif)
 
   <p> 42. 這邊可以看到我們已經從 http://localhostXXXX 成功取回 json 至 127.0.0.1</p>
-  <p> 43. <a href="https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Static/JQ.AJAX.html">https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Static/JQ.AJAX.html</a></p>
-  <p> 44. 接著可以先看懂以上程式碼，應該就能真的嘗試操作了。</p>
+  <p> 43. 接著開啟下列檔案的靜態頁面。</p>
+  <p> 44. <a href="https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Static/JQ.AJAXDemo.html">https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Static/JQ.AJAXDemo.html</a></p>
+  <p> 45. 我們可以看到四份範例，分別是以下，並且分為 HTML 部分與 JS 部分相互呼應。
+
+  1. 前端利用 AJAX 向後端 REQUEST 並在後端 RESPONSE 後取資料並在前端渲染。
+  2. 在事件 DOCUMENT READY 時，前端利用 AJAX 讀取 LOCAL DATA 並進行渲染。
+  3. 利用 LOCAL DAT 渲染出，第一種 API 的調用邏輯，並利用此邏輯向後端接口傳遞 REQUEST 並調用資料回前端渲染。
+  4. 利用 FORM 而不藉由任何 JS 對後端進行 REQUEST，但這邊可以很清楚地發現，當後端沒有轉址時，就算回傳了JSON 其實不會回到原網域，做完串接在解釋這該怎麼半。
 
   ![alt](/img/jqajax2.gif)
 
-  <p> 45. 更進階的例如說 按下分頁按鈕才取該頁資料，或是 AJAX POST 方法處理帳號密碼驗證。可以先等這頁串起來再接續。</p>
+  <p> 45. 再來更進階的例如說 按下分頁按鈕才取該頁資料，或是 AJAX POST 方法處理帳號密碼驗證。可以先等這頁串起來再接續。</p>
+      * [首頁的 HEADER DEMO 渲染如此連結內容](https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Static/AJAX.Sample.html)
   <p> 46. demo ㄑ全部包含進階的部分，補在 AJAX.Sample.html 與 JQ.AJAXDemo.html 內，有問題直接問我才會比較快。</p>
