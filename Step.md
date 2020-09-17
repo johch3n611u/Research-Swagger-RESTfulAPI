@@ -63,7 +63,8 @@
 
    ![alt](/img/7.png)
 
-   <p> 17. 接著將 https://localhost:44317/api/Default/S 開新分頁貼上，http://localhost:XXXXX (主機) / api (檔案) / Default (方法) / S (參數) 這就是 .NET CORE API 框架 解析 URL 的邏輯，不一定每個框架都是此邏輯，實際上可以自定義。</p>
+   <p> 17. 接著將 https://localhost:44317/api/Default/S 開新分頁貼上，並讓我們來檢視一下 URL</p>
+           * http://localhost:XXXXX (主機) / api (檔案) / Default (方法) / S (參數) 這就是 .NET CORE API 框架 解析 URL 的邏輯，不一定每個框架都是此邏輯，實際上可以自定義。
    <p> 18. 接著我們可以下斷點 看這段 https://localhost:44317/api/Default/S 實際上在軟體程式內做了什麼 </p>
 
    ![alt](/img/import.gif)
