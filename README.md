@@ -12,8 +12,8 @@
 
 ## 大綱
 
-1. [概括網站系統設計與相關名詞簡介](#A)
-2. [實作步驟 - 前端靜態AJAX 與 API後端 網站](https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Step.md)
+1. [概括網站、系統設計與相關名詞簡介](#A)
+2. [實作步驟 - 前端靜態 AJAX 與 API 後端 網站](https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Step.md)
 3. [Swagger-RESTfulAPI 實作](https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Swagger.RestfulAPI.md)
 
 <hr>
@@ -116,4 +116,4 @@
        * 待補
      </details>
 
-## [實作步驟 - 前端靜態AJAX 與 API後端 網站](https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Step.md)
+## [實作步驟 - 前端靜態 AJAX 與 API 後端 網站](https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Step.md)
