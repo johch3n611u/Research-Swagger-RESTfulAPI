@@ -1,5 +1,9 @@
 # Swagger-RESTfulAPI 實作
 
+## 目的
+
+幫老弟寫 API ，好練習串 API 接口與 ajax SSR 並補充網站知識，順便嘗試 RESTfulAPI 的 Lv 1 - 3，與 Swagger 套件。
+
 ![alt](/img/TryIt.gif)
 
 ## [RESTfulAPI 簡介 by https://openhome.cc](https://openhome.cc/Gossip/Spring/HATEOAS.html)
