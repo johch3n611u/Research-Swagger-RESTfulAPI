@@ -174,6 +174,6 @@
 
   ![alt](/img/jqajax2.gif)
 
-  <p> 45. 再來更進階的例如說 按下分頁按鈕才取該頁資料，或是 AJAX POST 方法處理帳號密碼驗證。可以先等這頁串起來再接續。</p>
+  <p> 45. 再來更進階的例如說 按下分頁按鈕才取該頁資料，或是 AJAX POST 方法處理帳號密碼驗證，驗證通過後給予 session or cookie 的 token，登入頁面都必須要驗證此 token 之類。可以先等這頁串起來再接續。</p>
       * [首頁的 HEADER DEMO 渲染如此連結內容](https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Static/AJAX.Sample.html)
   <p> 46. demo ㄑ全部包含進階的部分，補在 AJAX.Sample.html 與 JQ.AJAXDemo.html 內，有問題直接問我才會比較快。</p>
