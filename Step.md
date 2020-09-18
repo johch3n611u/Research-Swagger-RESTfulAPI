@@ -11,7 +11,7 @@
 2. [原理解析 13-31](#B)
    * request 與 response 原理
    * JSON 格式與 AJAX 方法
-3. [Demo實作講解 32-.](#C)
+3. [Demo實作講解 32-46](#C)
    * 組 request 封包
    * 利用 AJAX 方法向後端 request 並取回 response
    * 利用此回傳之 JSON 檔，渲染頁面
