@@ -1,4 +1,4 @@
-# 實作步驟 - 前端靜態 AJAX 與 API 後端 網站
+# 實作步驟 - 前端靜態 AJAX 與 API 後端 網站互動
 
 ## 目的
 
@@ -7,8 +7,16 @@
 ## 大綱 <a id="TOP"></a>
 
 1. [環境架設 1-12](#A)
+    * 架設寫好的後端網站程式
 2. [原理解析 13-31](#B)
-3. [Demo實作講解 32-.](#C)
+    * request 與 response 原理
+    * JSON 格式與 AJAX 方法
+3. [Demo實作講解 32-46](#C)
+    * 組 request 封包
+    * 利用 AJAX 方法向後端 request 並取回 response
+    * 利用此回傳之 JSON 檔，渲染頁面
+4. [運用 session or cookie 判斷登入與否並跳轉業面]()
+    * [參考](https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/280373/)
 
 <br>
 
@@ -168,6 +176,6 @@
 
   ![alt](/img/jqajax2.gif)
 
-  <p> 45. 再來更進階的例如說 按下分頁按鈕才取該頁資料，或是 AJAX POST 方法處理帳號密碼驗證。可以先等這頁串起來再接續。</p>
+  <p> 45. 再來更進階的例如說 按下分頁按鈕才取該頁資料，或是 AJAX POST 方法處理帳號密碼驗證，驗證通過後給予 session or cookie 的 token，登入頁面都必須要驗證此 token 之類。可以先等這頁串起來再接續。</p>
       * [首頁的 HEADER DEMO 渲染如此連結內容](https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Static/AJAX.Sample.html)
   <p> 46. demo ㄑ全部包含進階的部分，補在 AJAX.Sample.html 與 JQ.AJAXDemo.html 內，有問題直接問我才會比較快。</p>
