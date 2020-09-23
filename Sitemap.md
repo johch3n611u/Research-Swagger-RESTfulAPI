@@ -2,11 +2,23 @@
 
 參考 <https://webdesigneer.com/sitemap-web-design>
 
+參考 <https://www.google.com/search?q=Sitemap&rlz=1C1CHBF_zh-TWTW905TW905&source=lnms&tbm=isch&sa=X&ved=2ahUKEwinzISWnf7rAhUXVpQKHR2wBbEQ_AUoAXoECBEQAw&biw=1920&bih=915>
+
 ## 目標目的
 
-將以下 頁面參考上述歸類出 Sitemap 並 Check 沒有缺少頁面
+將以下 頁面參考上述歸類出 Sitemap 並 Check 沒有缺少頁面。
+
+## 工具
+
+線上 Coggle / 單機 XMind
 
 ## 技術難度
+
+Sitemap 分兩種，圖像與Xml。
+
+第一種是給規劃者/一般人使用的，第二種是給機器人讀的 SEO 的條件之一。
+
+---
 
 因為採用前後端渲染已經不是靜態網頁了，
 
