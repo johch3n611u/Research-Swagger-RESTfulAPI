@@ -1,20 +1,45 @@
 # Side-Project-Try-Swagger-RESTfulAPI
 
-## 目的
+> 目的導向而不是技術導向，所有事情都應該以`目標目的`為主，
+>
+> 每個階段檢視是否符合目標，如無則改善找尋其他辦法，否則可能事倍功半。
 
-> 目的導向而不是技術導向，所有事情都應該以`目標目的`為主，每個階段檢視是否符合目標，如無則改善找尋其他辦法，否則可能事倍功半。
+## 目的
 
 為了讓老弟體驗一個網站從無到有從`前端`到`後端`甚至到`資料庫`與`架站`，
 
 當體驗過一個網站後，後續就有機會有第二個第三個甚至第四個甚至是`系統`...
 
-> 其實`系統`就是將各種生活中的流程與其他網站或他方提供的資料串接，系統化，做成`雲端服務`或像是`內網單機程式`。
+> 其實`系統`就是將各種生活中的流程與其他網站或他方提供的資料串接
+>
+> 系統化，做成`雲端服務`或像是`內網單機程式`。
+
+---
+
+首先我們要來看我們的目標是什麼，
+
+我們的目標是要將`六角`最後的作業由
+
+`靜態網頁`轉為`動態網頁`，動態網頁又分`前端渲染`與`後端渲染`，
+
+此次我們採用的是前端渲染，透過 `JQ 函式庫` ，與 `.NET Core API` 後端框架。
 
 ## 大綱
 
+接著拆解為以下步驟，我們先透過了解
+
 1. [概括網站、系統設計與相關名詞簡介](#A)
-2. [實作步驟 - 了解頁面相關需求功能](https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Sitemap.md)
-3. [實作步驟 - 相關需求功能如何實作](https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Step.md)
+
+   並透過
+
+2. [實作步驟 - Sitemap 了解頁面相關需求功能](https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Sitemap.md)
+
+   在藉由
+
+3. [實作步驟 - 相關需求功能了解如何透過相關技術實作](https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Step.md)
+
+   以下是我記錄不用看
+
 4. [Swagger-RESTfulAPI 實作](https://github.com/johch3n611u/Side-Project-Try-Swagger-RESTfulAPI/blob/master/Swagger.RestfulAPI.md)
 
 <hr>
