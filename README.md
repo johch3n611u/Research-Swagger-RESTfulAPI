@@ -8,6 +8,23 @@
 >
 > 系統化，做成`雲端服務`或像是`內網單機程式`。
 
+[三種 Web 渲染方式 ( 可以忽略 Next.js 其實是 Web 通用 ) ](https://zhuanlan.zhihu.com/p/341229054)
+
+* 客户端渲染 BSR (Broswer Side Render)
+* -- 用 JS、Vue、React 创建 HTML
+
+待補
+
+* 静态页面生成 SSG (Static Site Generation)
+* -- 页面静态化，把 PHP 提前渲染成 HTML
+
+待補
+
+* 服务端渲染 SSR (Server Side Render)
+* -- PHP、Python、Ruby、Java 后台的基本功能
+
+![alt](/img/SSR.png)
+
 # Side-Project-Try-Swagger-RESTfulAPI
 
 > 目的導向而不是技術導向，所有事情都應該以`目標目的`為主，
