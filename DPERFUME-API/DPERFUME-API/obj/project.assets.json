@@ -6249,10 +6249,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\Desk\\wanhon\\MxicAppSample\\MxicNugetPackages": {},
+        "D:\\Desk\\wanhon\\PAMAI\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -6264,6 +6267,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.Extensions.PlatformAbstractions": {
             "target": "Package",
@@ -6296,8 +6300,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "讀取快取檔案 D:\\Desk\\Cases\\No$OpenSource\\TestAPI\\Side-Project-Try-Swagger-RESTfulAPI\\DPERFUME-API\\DPERFUME-API\\obj\\project.nuget.cache 時發生問題: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

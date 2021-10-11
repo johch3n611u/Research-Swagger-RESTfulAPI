@@ -188,17 +188,29 @@ namespace DPERFUME_API.Controllers
         /// <param name="Authentication">帳號密碼</param>
         /// <returns>登入成功或失敗</returns>
         [HttpPost]
-        public ResultModel Post([FromBody] Authentication Authentication)
+        public ResultModel Post([FromForm] string Email, [FromForm] string Password)
         {
+            // https://blog.johnwu.cc/article/ironman-day09-asp-net-core-model-binding.html
+
+            // [formbody] https://stackoverflow.com/questions/19446544/post-request-to-include-content-type-and-json
+            // 這裡的狀況：主要不是前端問題，而是涉及到後端取封包的邏輯，每個框架不太一樣需要依據接口格式，所以 form 就必須符合格式，否則根本找不到相對應的接口。
+            // https://stackoverflow.com/questions/19446544/post-request-to-include-content-type-and-json
+            // 變成必須用非正規方式把資料組成 JSON 格式傳入。
+            // 此處較不像一般的方式，通常在 form 傳出前攔截是為了前端驗證資料格式 e.g. email / length / 非法字元 ...，而不是轉 JSON 格式
+            // https://www.w3school.com.cn/jquery/event_submit.asp
+
+            // $('#myform').submit() // 等於直述句會直接觸法此 form submit
+
+            // [FromBody] Authentication Authentication
             ResultModel Response = new ResultModel();
 
-            if (Authentication != null)
+            if (Email != null || Email != "")
             {
 
                 if (
-                    Authentication.Email == "Carl@gmail.com"
+                    Email == "Carl@gmail.com"
                     &&
-                    Authentication.Password == "1234"
+                    Password == "1234"
                     )
                 {
                     Response.IsSuccess = true;

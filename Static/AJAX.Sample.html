@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <header class="contanier-fluid container-lg p-0 px-md-3 mt-2">
+        <nav class="navbar navbar-expand-md  justify-content-around justify-content-md-between p-0">
+            <a class="navbar-brand" href="#">
+                <h1 id="testTitle" class="text-hide" style="background-image: url('https://github.com/Big-Code-Milk/Big-Code-Milk.github.io/blob/master/Carl/Summer-vaction-notes/hexoschool_hw/week7/image/d%E2%80%99Perfume.png?raw=true'); width:128px;height:38px;">
+                    TestTitle</h1>
+            </a>
+            <div class="d-md-none position-relative">
+                <a href="#"><img src="/Carl/Summer-vaction-notes/hexoschool_hw/week7/image/shopping-cart.svg" alt="cart">
+                </a>
+                <a class="position-absolute rounded-circle cart-num bg-primary text-white" href="#">3</a>
+                <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-0 justify-content" id="navbarSupportedContent">
+                <ul id="testNavbar" class="navbar-nav mr-auto">
+                    <!-- <li class="nav-item  mr-md-2 order-md-1">
+                        <a class="nav-link text-center" href="02.html"><i class="fas fa-tshirt mr-1"></i>Product </a>
+                    </li>
+                    <li class="nav-item mr-md-2 order-md-3">
+                        <a class="nav-link text-center" href="#"><i class="fas fa-heart mr-1"></i>Wishlist</a>
+                    </li>
+                    <li class="nav-item mr-md-2 d-md-none">
+                        <a class="nav-link text-center" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item mr-md-2 d-md-none">
+                        <a class="nav-link text-center" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item mr-md-2 order-md-2">
+                        <a class="nav-link text-center" href="04.html"><i class="fas fa-user mr-1"></i>log in</a>
+                    </li>
+                    <li class="nav-item dropdown mr-md-2 d-none d-md-flex order-md-4">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-shopping-cart mr-1"></i>Cart(3)
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Rose*1</a>
+                            <a class="dropdown-item" href="#">Apple*1</a>
+                            <a class="dropdown-item" href="#">Ocean*1</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">前往付款</a>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <script>
+        $(document).ready(function() {
+            // 當瀏覽器事件 document.ready 時觸發此匿名函式
+            localobj = $.ajax({ //將 jq.ajax 方法從 url 取回的物件放入 localobj 並加以使用
+                url: "All.json",
+                async: false
+            });
+            console.log("localobj", localobj.responseJSON) // localobj.responseJSON 存放著 JSON 字串所解析出來的 obj 可以直接取用
+            console.log('localobj.layout', localobj.responseJSON.layout) // 取用方法如左，但無強行別需 log 去看階層
+            $("#testTitle").html(localobj.responseJSON.layout.header.title); // 將取回來的資料渲染進 id為 testTitle 的 tag 內
+
+            // 利用 json 內的資料做 控制流程 渲染 navbar
+
+            var navbarLength = localobj.responseJSON.layout.header.navbar.navNames.length;
+            var navNames = localobj.responseJSON.layout.header.navbar.navNames;
+            console.log('navbarLength', navbarLength);
+            // 1. 首先取出 navbar 資料筆數
+            var navbarli = "";
+            for (var i = 0; i < navbarLength; i++) {
+                // 2. 接著利用資料筆數 控制迴圈次數
+                // 3. 接著要去看原 切版資料的規律與異於規律的部分
+                // 4. 我們可以看到 先不處理 href 與手機板 的狀況下 order-md-1 是隨著資料的筆數而數字遞增
+                // 5. 再來還有個比較特別的就是 i 裡面的 fa-tshirt 這裡照理來說 fa- 後面的值要由後端帶出，
+                // 6. 但既然這邊當初沒設定那我們就練習 switch
+                if (navNames[i] == "Cart") {
+                    // 7. 然後 Cart 這層 li 是最異於其餘 li 的所以我們必須要藉由 if else 控制邏輯獨立出來作業。
+
+                    var CartItems = ""; // 真的後端購物車資料
+
+                    var CartItemsLength = localobj.responseJSON.layout.header.navbar.shopBag.length;
+                    console.log("CartItemsLength", CartItemsLength);
+                    var CartItemsShopBag = localobj.responseJSON.layout.header.navbar.shopBag;
+                    console.log("CartItemsShopBag", CartItemsShopBag);
+
+                    for (var i = 0; i < CartItemsLength; i++) {
+                        // 通常資料筆數會在後端 Groupby 前端只負責顯示不做太多邏輯，所以我們這邊其實後端少了個商品數量的資料 我們用 *1 替代
+                        var CartItemsTag = "<a class='dropdown-item' href='#'>" + CartItemsShopBag[i].productNames + "*1</a>";
+
+                        if (i == CartItemsLength - 1) { // 當迴圈最後一筆時
+                            CartItemsTag += "<a class='dropdown-item' href='#'>前往付款</a>";
+                        }
+
+                        CartItems += CartItemsTag;
+                    }
+
+                    navbarliTag = "<li class='nav-item dropdown mr-md-2 d-none d-md-flex order-md-4'><a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'><i class='fas fa-shopping-cart mr-1' ></i > Cart(" + CartItemsLength + ")</a ><div class='dropdown-menu' aria-labelledby='navbarDropdown'>" + CartItems + "</div></li>";
+                    navbarli += navbarliTag;
+
+                    // 8. 我們可以藉由 log 觀察迴圈變化
+                    console.log("navbarliTag-" + i, navbarliTag)
+                } else {
+                    // 這邊比較值得注意的是 i 的起始值為 0 但 order-md-1 的起始值為1 所以要藉由理解的規律對字串在 +1
+                    // 再來是雙引號內如果要再使用屬性，可以用 單引號包覆，當然反推也可以單引號包雙引號
+
+                    var faValue = "";
+
+                    switch (navNames[i]) {
+                        case 'Product':
+                            faValue += "tshirt"
+                            break;
+                        case 'log in':
+                            faValue += "heart"
+                            break;
+                        case 'Wishlist':
+                            faValue += "user"
+                            break;
+                        default:
+                            console.log(`Sorry, we are out of ${navNames[i]}.`);
+                    }
+
+                    navbarliTag = "<li class='nav-item mr-md-2 order-md-" + (i + 1) + "'><a href='#' class='nav-link text-center' > <i class='fas fa-" + faValue + " mr-1'></i>" + navNames[i] + "</a></li>";
+                    // 這邊我們藉由流程控制 以迴圈渲染出 實際切版時靜態 html 與 css
+                    navbarli += navbarliTag;
+                    console.log("navbarliTag-" + i, navbarliTag)
+                }
+                console.log("navbarli-" + i, navbarli)
+            }
+
+            $("#testNavbar").html(navbarli);
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+{
+    "layout": {
+        "header": {
+            "title": "D'PERFUME",
+            "navbar": {
+                "navNames": [
+                    "Product",
+                    "log in",
+                    "Wishlist",
+                    "Cart"
+                ],
+                "shopBag": [{
+                        "email": "Carl@gmail.com",
+                        "productNames": "Rose"
+                    },
+                    {
+                        "email": "Carl@gmail.com",
+                        "productNames": "Apple"
+                    },
+                    {
+                        "email": "Carl@gmail.com",
+                        "productNames": "Ocean"
+                    }
+                ]
+            }
+        },
+        "footer": {
+            "copyright": "© 2020. All Rights Reserved.",
+            "title": "D'PERFUME",
+            "navbar": {
+                "navNames": [
+                    "Product",
+                    "Blog",
+                    "Contact"
+                ],
+                "shopBag": null
+            }
+        }
+    },
+    "banner": {
+        "title": "Perfume your day",
+        "info": "A perfume is like a piece of clothing, a message, a way of presenting oneself a costume that according to the person who wears it."
+    },
+    "columnProducts": [{
+            "id": 1,
+            "title": "Gabrielle CHANEL",
+            "info": "全新嗅覺體驗，花香四溢、明亮馥郁。結合茉莉、依蘭依蘭、橙花和最迷人的格拉斯晚香玉之花香，呈現出夢幻花香氣息。 極具女性特質的香奈兒嘉柏麗香水，專為光芒四射的她而生。",
+            "link": "03.html"
+        },
+        {
+            "id": 2,
+            "title": "Five O’clock Au Gingembre",
+            "info": "生薑與溫醇的肉桂香、紅糖的香甜摻和成一氣，溫暖微辛的氣息反倒形成一股輕煙氤氳開來，還帶點微微煙醺感漫溢在整個鼻息之間，細聞之下,又還有溫溫淡淡的木香，溫和而暖心。",
+            "link": "03.html"
+        },
+        {
+            "id": 3,
+            "title": "CHANEL N°5",
+            "info": "N°5，女性魅力的極致精髓。散發柔美澄透的乙醛花束香氣。經典傳奇香氛，蘊藏於極簡設計的獨特瓶身。",
+            "link": "03.html"
+        }
+    ],
+    "steps": [{
+            "id": 1,
+            "title": "Levels of Preventive Maintenance Compliance",
+            "info": "The core idea of preventative maintenance is the performance of proactive actions against unscheduled downtime in order to identify potential defects before they evolve into something more severe."
+        },
+        {
+            "id": 2,
+            "title": "Levels of Preventive Maintenance Compliance",
+            "info": "The core idea of preventative maintenance is the performance of proactive actions against unscheduled downtime in order to identify potential defects before they evolve into something more severe."
+        },
+        {
+            "id": 3,
+            "title": "Critical percentage of planned maintenance",
+            "info": "Calculating the critical percentage of planned maintenance will help you prioritize the most important operations that should be performed immediately."
+        }
+    ],
+    "rowProducts": [{
+            "id": 1,
+            "title": "Poppy & Barley",
+            "info": "Jo Malone",
+            "price": "NT$1,580",
+            "discount": "NT$1,380"
+        },
+        {
+            "id": 2,
+            "title": "Body Wash",
+            "info": "Curology",
+            "price": "NT$1,580",
+            "discount": null
+        },
+        {
+            "id": 3,
+            "title": "Apple Cider Vinegar Capsule",
+            "info": "Tonik",
+            "price": "NT$1,580",
+            "discount": null
+        }
+    ],
+    "finalProduct": {
+        "title": "Bottle-Recycling",
+        "subTitle": "Recycle your used empty bottles and be rewarded!",
+        "info": "For the past 10 years, we have collected over 800,000 bottles through Empty Bottle Recycling Campaign and planted more than 860 pine trees for a better environment.For the past 10 years, we have collected over 800,000 bottles through Empty Bottle Recycling Campaign and planted more than 860 pine trees for a better environment.",
+        "link": "03.html"
+    }
+}
