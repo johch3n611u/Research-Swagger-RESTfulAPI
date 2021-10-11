@@ -34,7 +34,7 @@ namespace DPERFUME_API.Controllers
                     {
                         switch (PartName)
                         {
-                            case "ShopBag":
+                            case "shopBag":
 
                                 if (homepage.Layout.Header.Navbar.ShopBag.Any(x => x.Email == id))
                                 {
@@ -50,7 +50,7 @@ namespace DPERFUME_API.Controllers
                                 }
 
                                 break;
-                            case "ColumnProducts":
+                            case "columnProducts":
 
                                 if (homepage.ColumnProducts.Any(x => x.Id == Int32.Parse(id)))
                                 {
@@ -67,7 +67,7 @@ namespace DPERFUME_API.Controllers
 
                                 break;
 
-                            case "Steps":
+                            case "steps":
 
                                 if (homepage.Steps.Any(x => x.Id == Int32.Parse(id)))
                                 {
@@ -83,7 +83,7 @@ namespace DPERFUME_API.Controllers
                                 }
 
                                 break;
-                            case "RowProducts":
+                            case "rowProducts":
                                 if (homepage.RowProducts.Any(x => x.Id == Int32.Parse(id)))
                                 {
                                     Response.IsSuccess = true;
@@ -111,37 +111,37 @@ namespace DPERFUME_API.Controllers
 
                         switch (PartName)
                         {
-                            case "ShopBag":
+                            case "shopBag":
                                 Response.IsSuccess = true;
                                 Response.Message = "Welcome to used DPERFUME_API";
                                 Response.Data = homepage.Layout.Header.Navbar.ShopBag;
                                 break;
-                            case "Layout":
+                            case "layout":
                                 Response.IsSuccess = true;
                                 Response.Message = "Welcome to used DPERFUME_API";
                                 Response.Data = homepage.Layout;
                                 break;
-                            case "Banner":
+                            case "banner":
                                 Response.IsSuccess = true;
                                 Response.Message = "Welcome to used DPERFUME_API";
                                 Response.Data = homepage.Banner;
                                 break;
-                            case "ColumnProducts":
+                            case "columnProducts":
                                 Response.IsSuccess = true;
                                 Response.Message = "Welcome to used DPERFUME_API";
                                 Response.Data = homepage.ColumnProducts;
                                 break;
-                            case "Steps":
+                            case "steps":
                                 Response.IsSuccess = true;
                                 Response.Message = "Welcome to used DPERFUME_API";
                                 Response.Data = homepage.Steps;
                                 break;
-                            case "RowProducts":
+                            case "rowProducts":
                                 Response.IsSuccess = true;
                                 Response.Message = "Welcome to used DPERFUME_API";
                                 Response.Data = homepage.RowProducts;
                                 break;
-                            case "FinalProduct":
+                            case "finalProduct":
                                 Response.IsSuccess = true;
                                 Response.Message = "Welcome to used DPERFUME_API";
                                 Response.Data = homepage.FinalProduct;
@@ -159,7 +159,7 @@ namespace DPERFUME_API.Controllers
 
                     switch (PageName)
                     {
-                        case "HomePage":
+                        case "homePage":
                             Response.IsSuccess = true;
                             Response.Message = "Welcome to used DPERFUME_API";
                             Response.Data = homepage;

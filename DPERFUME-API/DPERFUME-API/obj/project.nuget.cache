@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OeAfrF0WYP4E8C4yh2x9Fkip2mDBi85sdiBDhsGDIj50EGU8X3LpY4S+g3mdE+KtcallQFPToe8duB1VLuAMEQ==",
+  "dgSpecHash": "YSVyTkFW3k2TZokEYOdulfQSwf8gMkjzPboydIJPQqqUmcBnvarT5+hd4+AKqyXDLUZ9KV7h50NvqaYkokwJRQ==",
   "success": true,
-  "projectFilePath": "D:\\Desk\\Side-Project-Try-Swagger-RESTfulAPI\\DPERFUME-API\\DPERFUME-API\\DPERFUME-API.csproj",
+  "projectFilePath": "D:\\Desk\\Cases\\No$OpenSource\\TestAPI\\Side-Project-Try-Swagger-RESTfulAPI\\DPERFUME-API\\DPERFUME-API\\DPERFUME-API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\liu\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\liu\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

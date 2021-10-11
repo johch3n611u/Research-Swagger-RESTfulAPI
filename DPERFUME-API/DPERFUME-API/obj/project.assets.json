@@ -6231,11 +6231,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desk\\Side-Project-Try-Swagger-RESTfulAPI\\DPERFUME-API\\DPERFUME-API\\DPERFUME-API.csproj",
+      "projectUniqueName": "D:\\Desk\\Cases\\No$OpenSource\\TestAPI\\Side-Project-Try-Swagger-RESTfulAPI\\DPERFUME-API\\DPERFUME-API\\DPERFUME-API.csproj",
       "projectName": "DPERFUME-API",
-      "projectPath": "D:\\Desk\\Side-Project-Try-Swagger-RESTfulAPI\\DPERFUME-API\\DPERFUME-API\\DPERFUME-API.csproj",
+      "projectPath": "D:\\Desk\\Cases\\No$OpenSource\\TestAPI\\Side-Project-Try-Swagger-RESTfulAPI\\DPERFUME-API\\DPERFUME-API\\DPERFUME-API.csproj",
       "packagesPath": "C:\\Users\\liu\\.nuget\\packages\\",
-      "outputPath": "D:\\Desk\\Side-Project-Try-Swagger-RESTfulAPI\\DPERFUME-API\\DPERFUME-API\\obj\\",
+      "outputPath": "D:\\Desk\\Cases\\No$OpenSource\\TestAPI\\Side-Project-Try-Swagger-RESTfulAPI\\DPERFUME-API\\DPERFUME-API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -27,6 +27,15 @@ namespace DPERFUME_API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                // CorsPolicy 是自訂的 Policy 名稱
+                options.AddPolicy("CorsPolicy", policy =>
+                {
+                    policy.AllowAnyOrigin();
+                });
+            });
+
             services.AddControllers();
 
             services.AddSwaggerGen(c =>
@@ -62,6 +71,8 @@ namespace DPERFUME_API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseCors("CorsPolicy");
+
             app.UseSwagger();
 
             app.UseSwaggerUI(c =>
